@@ -1,0 +1,791 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="2025 Hong Kong Geospatial Summit" />
+  <meta name="author" content="ambit geospatial" />
+  <title>2025 Hong Kong Geospatial Summit</title>
+  <link rel="icon" type="image/png" href="./static/img/favicon.ico" />
+  <!-- Bootstrap Core CSS -->
+  <link href="./static/bootstrap-3.3.4/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"
+    /> -->
+  <!-- Custom CSS -->
+  <script>
+    document.write(
+      '<link rel="stylesheet" href="./static/css/agency.css?random=' +
+      Math.random() +
+      '"><\/link>'
+    );
+    document.write(
+      '<link rel="stylesheet" href="./static/css/agenda.css?random=' +
+      Math.random() +
+      '"><\/link>'
+    );
+  </script>
+  <!-- the CSS for Smooth Div Scroll -->
+  <link rel="Stylesheet" type="text/css" href="./static/css/smoothDivScroll.css" />
+  <!--[if lt IE 9]>
+      <script>
+        alert('Sorry, IE8 and the following browsers are not supported');
+      </script>
+      <script src="./static/js/support_ie9/html5shiv.js"></script>
+      <script src="./static/js/support_ie9/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body id="page-top">
+  <!-- Navigation -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header page-scroll">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <img class="navbar-brand" src="./static/img/sponsors/AMBIT.png" alt="About Ambit" title="About Ambit"
+          onclick="window.open('https://www.ambit-geospatial.com.hk/')" style="cursor: pointer" />
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="hidden">
+            <a href="#page-top"></a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#about">About</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#sponsor">Sponsors</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#agenda">Agenda</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#historical">Event Highlights</a>
+          </li>
+
+          <li>
+            <a class="page-scroll" href="#register">Registration</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+
+  <div class="new-custom" id="app">
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <div class="intro-text">
+          <div class="intro-lead-in">
+            <img v-if="all.loadUrl!=undefined"
+              v-bind:src="changeUrl('./static/images/2025 Hong Kong 3D Geospatial Summit.png')" />
+            <img v-else src="./static/images/2025 Hong Kong 3D Geospatial Summit.png" />
+          </div>
+          <div class="intro-heading" v-html="all.eventInfo.summitTheme"></div>
+
+          <div class="intro-tagline h3" style="line-height: 36px">
+            <b>Location:</b>
+            <span class="intro-lea">{{all.eventInfo.location}}</span>
+          </div>
+          <div class="intro-tagline h3" style="line-height: 36px">
+            <b>Booth:</b>
+            <span class="intro-lea">{{all.eventInfo.venue}}</span>
+          </div>
+
+          <div class="event-info container">
+
+          <!-- Times -->
+          <div class="row event-times">
+
+            <!-- Exhibition Time -->
+            <div class="col-sm-6">
+              <div class="time-panel">
+                <h3>Exhibition Time</h3>
+                <ul class="time-list">
+                  <li v-for="day in all.eventInfo.eventDate" v-if="day.exhibition">
+                    <span class="time-date">{{ day.dateDisplay }}</span>
+                    <span class="time-range">{{ day.exhibition }}</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Presentation Time -->
+            <div class="col-sm-6">
+              <div class="time-panel">
+                <h3>Presentation Time</h3>
+                <ul class="time-list">
+                  <li v-for="day in all.eventInfo.eventDate" v-if="day.presentation">
+                    <span class="time-date">{{ day.dateDisplay }}</span>
+                    <span class="time-range">{{ day.presentation }}</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+
+          <br /><br /><br />
+          <a href="#about" class="pauge-scroll btn btn-xl" th:text="#{index.tellMeMore}">Tell Me More</a>
+        </div>
+      </div>
+
+      
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container panel-group" id="aboutSubjectGroup">
+        <div v-for="(subject,index) in all.subjects" class="row panel panel-default aboutSubject">
+          <div class="row">
+            <div class="col-lg-12">
+              <h2 class="text-center section-heading" v-text="subject.head"></h2>
+            </div>
+            <!-- 第一个有视频 半屏显示-->
+            <template v-if="index === 0">
+              <div class="col-lg-7">
+                <template v-for="(subHead, subIndex) in subject.subHeads">
+                  <h3 class="section-subheading" v-html="subHead"></h3>
+                </template>
+              </div>
+            </template>
+            <!-- 其他全屏显示 -->
+            <template v-else>
+              <div class="col-lg-12">
+                <template v-for="(subHead, subIndex) in subject.subHeads">
+                  <h3 class="section-subheading" v-html="subHead"></h3>
+                </template>
+              </div>
+            </template>
+            <!-- 嵌入视频 col-md-offset-1 -->
+            <div class="col-lg-3">
+              <template v-if="index === 0">
+                <iframe width="450" height="600" loading="lazy" src="https://www.youtube.com/embed/9yKn7gM8GTA"
+                  title="Join the GeoAI Challenge! #shorts" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen></iframe>
+              </template>
+
+              <!-- <div
+                  class="embed-responsive embed-responsive-16by9"
+                  v-if="subject.subVideo"
+                  style="margin-bottom: 8px"
+                >
+                  <iframe
+                    class="embed-responsive-item"
+                    loading="lazy"
+                    :src="subject.subVideo"
+                  ></iframe>
+                </div> -->
+            </div>
+          </div>
+        </div>
+
+        <!-- 嘉宾照片 -->
+        <div class="guestImgs" id="guests">
+          <div v-for="(guest, index) in all.guests" class="guestImg" @mouseover="showInfo(guest, $event)"
+            @mouseleave="hideInfo">
+            <div>
+              <!-- <img
+                  v-if="guest.guestImgMini && all.loadUrl!=undefined"
+                  class="img-circle"
+                  :src="changeUrl(guest.guestImgMini)"
+                />
+                <img
+                  v-else-if="guest.guestImgMini"
+                  class="img-circle"
+                  :src="guest.guestImgMini"
+                /> -->
+              <img class="img-circle" :src="guest.guestImgMini" />
+              <span v-text="guest.guestName"></span>
+            </div>
+          </div>
+
+          <div class="guestInfo">
+            <span v-html="currentGuest.guestInfo"></span>
+            <img v-if="currentGuest.companyImg" :src="currentGuest.companyImg" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 赞助商 -->
+    <section id="sponsor">
+      <aside id="sponsors">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <h3 class="section-heading">Organized by:</h3>
+            </div>
+          </div>
+          <div class="row text-center sponsor-logo-container">
+            <div class="col-xs-6 col-sm-4 col-md-3">
+              <img style="max-width: 100%" class="organized-sponsor-logo" src="./static/img/sponsors/AMBIT.png"
+                alt="About Ambit" title="Click to visit the company's website" 
+                onclick="window.open('https://www.ambit-geospatial.com.hk/about.html')" />
+            </div>
+            <!-- <div class="col-xs-6 col-sm-4 col-md-3">
+              <img class="organized-sponsor-logo" src="./static/img/sponsors/CIC-HK.png"
+                alt="About CyberPort" title="Click to visit the company's website" 
+                onclick="window.open('https://ciexpo.cic.hk/event/2025/home')" />
+            </div> -->
+          </div>
+          <br />
+
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <h3 class="section-heading">Platinum Sponsors:</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <img style="max-width: 25%" src="./static/img/sponsors/phaseone.svg" alt="About PHASEONE"
+              title="Click to visit the company's website"  onclick="window.open('https://www.phaseone.com/about/')" />
+            </div>
+          </div>
+          <br />
+
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <h3 class="section-heading">Gold Sponsors:</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <img style="max-width: 22%" src="./static/img/sponsors/SKYLINE.png" alt="About Skyline"
+              title="Click to visit the company's website"  onclick="window.open('https://www.skylinesoft.com/about/')" />
+            </div>
+          </div>
+          <br />
+
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <h3 class="section-heading">Silver Sponsors:</h3>
+            </div>
+          </div>
+
+          <div class="row text-center sponsor-logo-container">
+            <!-- 第一行图标 -->
+            <div class="col-xs-6 col-sm-4 col-md-3">
+              <img class="silver-sponsor-logo" src="./static/img/sponsors/wintech.png" alt="Wintech"
+              title="Click to visit the company's website" 
+                onclick="window.open('http://www.wtechgnss.com/col.jsp?id=118')" />
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3">
+              <img class="silver-sponsor-logo" src="./static/img/sponsors/H3Zoom-AI-small.png" alt="H3Zoom-AI"
+              title="Click to visit the company's website" 
+                onclick="window.open('https://www.h3zoom.ai/about-us')" />
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3">
+              <img class="silver-sponsor-logo" src="./static/img/sponsors/SmartSeaTech.png"
+              title="Click to visit the company's website" 
+                onclick="window.open('https://www.smartseatech.com/homepage')" />
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3">
+              <img class="silver-sponsor-logo" src="./static/img/sponsors/SmartEarth.png"
+              title="Click to visit the company's website" 
+                onclick="window.open('https://www.smartearth.cn/index.php')" />
+            </div>
+          </div>
+
+          <div class="row text-center sponsor-logo-container">
+            <!-- 第二行图标 -->
+            <div class="col-xs-6 col-sm-4 col-md-3">
+              <img class="silver-sponsor-logo" style="max-width: 50%;" src="./static/img/sponsors/东方至远.webp"
+              title="Click to visit the company's website" 
+                onclick="window.open('https://www.larkview.cn/#/index')" />
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3">
+              <img class="silver-sponsor-logo" src="./static/img/sponsors/schneider-digital-logo.svg"
+              title="Click to visit the company's website" 
+                alt="Schneider Digital" onclick="window.open('https://www.schneider-digital.com/en/')" />
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3">
+              <img class="silver-sponsor-logo" src="./static/img/sponsors/VIAMETRISLogo.png" alt="VIAMETRIS"
+              title="Click to visit the company's website" 
+                onclick="window.open('https://viametris.com/about-us/')" />
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3">
+              <img class="silver-sponsor-logo" src="./static/img/sponsors/Voyis-Logo.webp"
+              title="Click to visit the company's website" 
+                onclick="window.open('https://voyis.com/')" />
+            </div>
+          </div>
+
+          <!-- <div class="row">
+            <div class="col-lg-12 text-center">
+              <h3 class="section-heading">Bronze Sponsors:</h3>
+            </div>
+          </div>
+          <div class="row text-center sponsor-logo-container">
+            <div class="col-xs-6 col-sm-4 col-md-3">
+              <img style="max-width: 85%" class="silver-sponsor-logo" src="./static/img/sponsors/OGCloud.webp"
+              title="Click to visit the company's website" 
+                onclick="window.open('https://www.ogcloud.net/introduce')" />
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3">
+              <img style="max-width: 91%" class="silver-sponsor-logo" src="./static/img/sponsors/Dell.png"
+              onclick="window.open('https://www.ogcloud.net/introduce')" />
+            </div>
+          </div> -->
+
+        </div>
+      </aside>
+    </section>
+
+
+    <section id="agenda" class="agenda-section">
+      <div class="container-fluid">
+        <h2 class="section-heading text-center">Agenda</h2>
+
+        <div class="row">
+          <!-- Day 1 -->
+          <div class="col-md-3 col-sm-4">
+            <div class="agenda-day">
+              <div class="agenda-day-header text-center">
+                <div class="agenda-day-label">
+                  {{ getDayInfo('day1').label || 'Day 1' }}
+                </div>
+                <div class="agenda-day-date">
+                  {{ getDayInfo('day1').dateDisplay }}
+                </div>
+              </div>
+
+              <div
+                class="agenda-session"
+                v-for="(session, sIndex) in getSessionsByDay('day1')"
+                :key="'day1-' + sIndex"
+              >
+                <div class="agenda-session-time">
+                  {{ session.sessionTime }}
+                </div>
+
+                <div
+                  class="agenda-speech"
+                  v-for="(speech, spIndex) in session.speechs"
+                  :key="'day1-' + sIndex + '-' + spIndex"
+                >
+                  <div class="agenda-speech-theme">
+                    {{ speech.theme }}
+                  </div>
+
+                  <!-- 文本简介 -->
+                  <div class="agenda-speech-text">
+                    <span v-if="!speech.isExpanded" v-html="speech.brief"></span>
+                    <span v-else v-html="speech.themeInfo"></span>
+                    <a
+                      v-if="speech.themeInfo && speech.themeInfo.length > MAX_CHARACTERS"
+                      @click="toggle(speech)"
+                      class="btn btn-link btn-xs"
+                    >
+                      {{ speech.isExpanded ? 'Show Less' : 'Show More' }}
+                    </a>
+                  </div>
+
+                  <!-- 嘉宾信息-->
+                  <div
+                    class="agenda-speech-guest"
+                    v-if="speech.guestId && guestsMap[speech.guestId]"
+                  >
+                    <a href="#guests">{{guestsMap[speech.guestId].guestName}}</a>,
+                    {{ guestsMap[speech.guestId].guestTitle }}
+                    {{ isChinese(guestsMap[speech.guestId].guestName) ? ', ' : ' of ' }}
+                    {{ guestsMap[speech.guestId].companyName }}
+                  </div>
+                </div>
+                <!-- 展示所有booths -->
+                <div v-for="(booth, bIndex) in all.booths" :key="bIndex"
+                    :class="['booth-row', bIndex % 2 === 0 ? 'bg-1' : 'bg-2']">
+                    <b>
+                      {{'Booth '+(bIndex+1)+':'}} {{ booth.boothTheme }}
+                    </b>
+                    <p v-html="booth.boothInfo"></p>
+
+                    <div class="booth_list_media">
+                      <!-- href: booth.companyWebsite -->
+                      <a :href="booth.companyWebsite" target="_blank">
+                        <img :src="booth.boothImg" alt="" title="Click to visit the company's website" style="cursor: pointer;"/>
+                      </a>
+                      <div v-if="booth.boothDescVideo">
+                        <iframe width="390" height="200" :src="booth.boothDescVideo" frameborder="0"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      </div>
+
+                    </div>
+                  </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- Day 2 -->
+          <div class="col-md-6 col-sm-4">
+            <div class="agenda-day">
+              <div class="agenda-day-header text-center">
+                <div class="agenda-day-label">
+                  {{ getDayInfo('day2').label || 'Day 2' }}
+                </div>
+                <div class="agenda-day-date">
+                  {{ getDayInfo('day2').dateDisplay }}
+                </div>
+              </div>
+
+              <div
+                class="agenda-session"
+                v-for="(session, sIndex) in getSessionsByDay('day2')"
+                :key="'day2-' + sIndex"
+              >
+                <div class="agenda-session-time">
+                  {{ session.sessionTime }}
+                </div>
+
+                <div
+                  class="agenda-speech"
+                  v-for="(speech, spIndex) in session.speechs"
+                  :key="'day2-' + sIndex + '-' + spIndex"
+                >
+                  <div class="agenda-speech-theme">
+                    {{ speech.theme }}
+                  </div>
+
+                  <div class="agenda-speech-text">
+                    <span v-if="!speech.isExpanded" v-html="speech.brief"></span>
+                    <span v-else v-html="speech.themeInfo"></span>
+                    <a
+                      v-if="speech.themeInfo && speech.themeInfo.length > MAX_CHARACTERS"
+                      @click="toggle(speech)"
+                      class="btn btn-link btn-xs"
+                    >
+                      {{ speech.isExpanded ? 'Show Less' : 'Show More' }}
+                    </a>
+                  </div>
+
+                  <!-- Video  -->
+                  <div
+                    class="embed-responsive embed-responsive-16by9"
+                    v-if="speech.themeVideo"
+                    style="margin-top: 10px"
+                  >
+                    <iframe
+                      class="embed-responsive-item"
+                      loading="lazy"
+                      :src="speech.themeVideo"
+                    ></iframe>
+                  </div>
+
+                  <div
+                    class="agenda-speech-guest"
+                    v-if="speech.guestId && guestsMap[speech.guestId]"
+                  >
+                    <a href="#guests">{{guestsMap[speech.guestId].guestName}}</a>,
+                    {{ guestsMap[speech.guestId].guestTitle }}
+                    {{ isChinese(guestsMap[speech.guestId].guestName) ? ', ' : ' of ' }}
+                    {{ guestsMap[speech.guestId].companyName }}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Day 3 -->
+          <div class="col-md-3 col-sm-4">
+            <div class="agenda-day">
+              <div class="agenda-day-header text-center">
+                <div class="agenda-day-label">
+                  {{ getDayInfo('day3').label || 'Day 3' }}
+                </div>
+                <div class="agenda-day-date">
+                  {{ getDayInfo('day3').dateDisplay }}
+                </div>
+              </div>
+
+              <div
+                class="agenda-session"
+                v-for="(session, sIndex) in getSessionsByDay('day3')"
+                :key="'day3-' + sIndex"
+              >
+                <div class="agenda-session-time">
+                  {{ session.sessionTime }}
+                </div>
+
+                <div
+                  class="agenda-speech"
+                  v-for="(speech, spIndex) in session.speechs"
+                  :key="'day3-' + sIndex + '-' + spIndex"
+                >
+                  <div class="agenda-speech-theme">
+                    {{ speech.theme }}
+                  </div>
+
+                  <div class="agenda-speech-text">
+                    <span v-if="!speech.isExpanded" v-html="speech.brief"></span>
+                    <span v-else v-html="speech.themeInfo"></span>
+                    <a
+                      v-if="speech.themeInfo && speech.themeInfo.length > MAX_CHARACTERS"
+                      @click="toggle(speech)"
+                      class="btn btn-link btn-xs"
+                    >
+                      {{ speech.isExpanded ? 'Show Less' : 'Show More' }}
+                    </a>
+                  </div>
+
+                  <div
+                    class="agenda-speech-guest"
+                    v-if="speech.guestId && guestsMap[speech.guestId]"
+                  >
+                    <a href="#guests">{{guestsMap[speech.guestId].guestName}}</a>,
+                    {{ guestsMap[speech.guestId].guestTitle }}
+                    {{ isChinese(guestsMap[speech.guestId].guestName) ? ', ' : ' of ' }}
+                    {{ guestsMap[speech.guestId].companyName }}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- 历史峰会 -->
+    <section id="historical">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Event Highlights</h2>
+          </div>
+        </div>
+
+        <div class="row" v-for="item in all.historicals">
+          <div class="col-lg-12">
+            <h5 class="section-heading" v-text="item.title" style="color: rgb(0, 176, 240)"></h5>
+          </div>
+          <div v-if="all.loadUrl != undefined">
+            <img v-for="img in item.imgs" v-bind:src="changeUrl(img)" onclick="showImg(this)" />
+          </div>
+          <div v-else>
+            <img v-for="img in item.imgs" v-bind:src="img" onclick="showImg(this)" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Registration Section -->
+    <section id="register">
+      <!-- Event Registration -->
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6" style="
+                font-family: 'Bradley Hand ITC';
+                font-size: 24px;
+                font-weight: 600;
+              ">
+            <h2 class="section-heading">Event Registration</h2>
+            <br />
+            <span>
+              For registration, please
+              <a target="_blank"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSe5AMgfynb7iNndIZHI1vzW9hxs4mBPr1fg6Mm8_Ys_P9v6bw/viewform?usp=dialog"
+                style="color: red; text-decoration: underline">click here</a>
+              to access the online registration system. Seat reserved
+              confirmation email will issue to registrant within 2 working
+              days.
+            </span>
+          </div>
+          <div class="col-lg-6">
+            <img style="max-width: 100%" src="./static/img/Other/HKCEC-Hall1.png"
+              onclick="window.open('https://ciexpo.cic.hk/event/24d375e2-cbac-4ed5-9c69-534e40d926e7/event-details')" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Event Schedule -->
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h2 class="section-heading">Event Schedule</h2>
+            <table class="table schedule-table">
+              <tbody>
+                <!-- Date -->
+                <tr>
+                  <th scope="row" style="width: 38%">Date</th>
+                  <td>
+                    <div
+                      v-for="day in all.eventInfo.eventDate"
+                      :key="day.id"
+                      class="mb-1"
+                    >
+                      <strong>{{ day.label }}:</strong>
+                      <span v-html="day.dateDisplay"></span>
+                    </div>
+                  </td>
+                </tr>
+
+                <!-- Exhibition time -->
+                <tr>
+                  <th scope="row">Exhibition time</th>
+                  <td>
+                    <div
+                      v-for="day in all.eventInfo.eventDate"
+                      :key="day.id + '-exhibition'"
+                      class="mb-1"
+                    >
+                      <strong>{{ day.label }}:</strong>
+                      <span v-html="day.exhibition"></span>
+                    </div>
+                  </td>
+                </tr>
+
+                <!-- Presentation time -->
+                <tr>
+                  <th scope="row">Presentation time</th>
+                  <td>
+                    <div
+                      v-for="day in all.eventInfo.eventDate"
+                      :key="day.id + '-presentation'"
+                      class="mb-1"
+                      v-if="day.presentation"
+                    >
+                      <strong>{{ day.label }}:</strong>
+                      <span v-html="day.presentation"></span>
+                    </div>
+                  </td>
+                </tr>
+
+                <!-- Venue -->
+                <tr>
+                  <th scope="row">Venue</th>
+                  <td v-html="all.eventInfo.venue"></td>
+                </tr>
+
+                <!-- Location -->
+                <tr>
+                  <th scope="row">Location</th>
+                  <td v-html="all.eventInfo.location"></td>
+                </tr>
+
+                <!-- Audience(s) -->
+                <tr>
+                  <th scope="row">Audience(s)</th>
+                  <td v-html="all.eventInfo.audiences"></td>
+                </tr>
+
+                <!-- Admission Fee（目前資料沒給，先寫死） -->
+                <tr>
+                  <th scope="row">Admission Fee</th>
+                  <td>Free</td>
+                </tr>
+
+                <!-- Dress Code（目前資料沒給，先寫死） -->
+                <tr>
+                  <th scope="row">Dress Code</th>
+                  <td>Casual</td>
+                </tr>
+
+                <!-- Conveying Language -->
+                <tr>
+                  <th scope="row">Conveying Language</th>
+                  <td v-html="all.eventInfo.conveyingLanguage"></td>
+                </tr>
+
+                <!-- Enquiry Email -->
+                <tr>
+                  <th scope="row">Enquiry Email</th>
+                  <td v-html="all.eventInfo.enquiryEmail"></td>
+                </tr>
+
+                <!-- Enquiry Telephone -->
+                <tr>
+                  <th scope="row">Enquiry Telephone</th>
+                  <td v-html="all.eventInfo.enquiryTelephone"></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+            <!-- Google Map -->
+            <div class="col-lg-6">
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d7383.838293290529!2d114.1731035!3d22.2810524!3m2!1i1024!2i768!4f13.1!2m1!1sHong%20Kong%20Convention%20and%20Exhibition%20Centre%20HKCEC%20Hall%201!5e0!3m2!1szh-TW!2shk!4v1763972500960!5m2!1szh-TW!2shk" 
+                width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <img style="max-width: 100%" src="./static/img/Other/HKCEC_BOOTH.png" onclick="showImg(this)">
+            </div>
+        </div>
+        <!-- <div class="row">
+          <div class="col-lg-12">
+            <img style="max-width: 100%" src="./static/img/Other/HKCEC_BOOTH.png">
+          </div>
+        </div> -->
+
+      </div>
+    </section>
+  </div>
+
+  <!-- Contact section (removed) -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <!--		update 6 to 12			-->
+        <div class="col-md-12">
+          <ul class="list-inline quicklinks">
+            <li>
+              <span class="copyright">&copy; 2025, AMBIT Geospatial Solution Ltd. All rights
+                reserved.</span>
+            </li>
+            <li>||</li>
+            <li>
+              <a href="https://ambit-geospatial.com.hk/contact.php?wid=8" target="_blank">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <!--			页面底部左下角导航-隐藏			-->
+          <ul class="list-inline quicklinks" style="display: none">
+            <li><a href="">Past TC Events</a></li>
+            <li>||</li>
+            <li><a href="">Upcoming TC Events</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="./static/js/vue.min.js" charset="utf-8"></script>
+
+  <!-- jQuery -->
+  <script src="./static/js/jquery.min.js" type="text/javascript"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script src="./static/bootstrap-3.3.4/js/bootstrap.min.js"></script>
+
+  <!-- Custom Theme JavaScript -->
+  <script src="./static/js/agency.js"></script>
+
+  <!-- 主页JS -->
+  <script>
+    document.write(
+      '<script type="text/javascript" src="./static/js/index.js?random=' +
+      Math.random() +
+      '"><\/script>'
+    );
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,499 @@
+{
+    "loadUrl-注释":"https://ambit-summit.oss-cn-hongkong.aliyuncs.com/",
+    "eventInfo":{
+        "summitTheme": "THE SYNERGY OF CITY BIG DATA AND <br>GEO-AI FOR SMART GOVERNMENT",
+        "eventDate": [
+          {"id":"day1","label":"Day 1","dateDisplay":"December 11 2025 (Thursday)","exhibition":"9:30 AM – 7:00 PM (GMT+8)","presentation":null},
+          {"id":"day2","label":"Day 2","dateDisplay":"December 12, 2025 (Friday)","exhibition":"9:00 AM – 7:00 PM (GMT+8)","presentation":"9:00 AM – 7:00 PM (GMT+8)"},
+          {"id":"day3","label":"Day 3","dateDisplay":"December 12, 2025 (Friday)","exhibition":"9:00 AM – 4:30 PM (GMT+8)","presentation":"9:00 AM – 4:30 PM (GMT+8)"}
+        ],
+        "venue":"CIExpo 2025 - G24",
+        "location":"Hong Kong Convention and Exhibition Centre (HKCEC) – Hall 1 A-B",
+        "audiences":"Government Department / Engineering Consultant / Contractor /Private Organisation / VC Investor / University / Public Interested on Smart City Application etc...",
+        "conveyingLanguage":"Cantonese & Mandarin",
+        "enquiryEmail":"geo2025@ambit-geospatial.com.hk",
+        "enquiryTelephone": "6840 6431"
+    },
+    "subjects": [
+        {
+            "head": "ABOUT THIS YEAR EVENT",
+            "subHeads": [
+              "The world is entering an era of Artificial Intelligence (AI) so does our geospatial industry. The powerful computer graphic recognition capability of AI through its machine learning algorithms has great impacts to geospatial data post processing work; especially toward the operation of feature recognition or extraction as well as change detection from the raster imagery and point cloud datasets. At the same time, the rapidly evolving spatial data acquisition technology formed strong support to facilitate AI application for enterprise level of implementation; new 3D geospatial data acquisition approach has made constant data collection in city scale basis becomes highly effective; nowadays city big data can be generated timely and cost effectively to cater for large scale AI applications. ",
+              "Being able to understand the core principle of operation between city big data and AI is the determining factors to the success of your project. The 3D geospatial data capturing methodology includes photogrammetry and LiDAR approaches, this is the best training data collection media to secure the accuracy of AI result; 3D geospatial post processing software can provide efficient workflow for the execution of annotation labelling of AI to cater for its machine learning process. Neglection of the importance of the role of geospatial technology usually led to the undermining of the AI performance. The collaboration of AI and city big data practice can evolve into the integrated conceptual term – GeoAI. ",
+              "This year, we have invited speakers from Hong Kong, mainland China, Singapore, Europe and USA to share their latest GeoAI applications and insights; especially focus on the GeoAI related disciplines includes SLAM, 3D mesh modelling with AI intelligence, auto defect inspection and stereo/AR visualisation devices that are significant to the project performance of private corporates as well as government departments. The potential synergy effect between AI and city big data is limited by user’s imagination only; it will reform organisation in term of workflow, labour resources and deliverable outcomes. Why not come to experience such “game changing” practice with us in this event."
+            ],
+            "subVideo":"https://www.youtube.com/embed/9yKn7gM8GTA"
+        },
+        {
+            "head": "About Hong Kong 3D Geospatial Summit",
+            "subHeads": [
+              "The Hong Kong 3D Geospatial Summit is a premier annual user conference which brings together the local GIS professionals, geospatial users and stakeholders in a gathering at CyberPort; this assembly targeted to brainstorm with new insights and advanced geospatial technologies related to smart city applications from expert speakers all over the world. Since 2014 we have been promoting the 3D geospatial solutions for optimum local usage at Hong Kong through this summit. This is an annual local 3D geospatial iconic event that you cannot absent; it brings overseas expertise and application experiences to benchmark local Hong Kong geospatial applications. The mission of the event is to introduce global leading geospatial technology to local practice; most of the presentation topics are overseas application examples as well as from mainland China case references. The spirit of summit is to promote the benchmarking of global geospatial technology to local industry practice; in order to validate the orientation of existing digital technology such that helping user to find optimum digital solution to their projects. Also, the goal of this event is to demonstrate highly matured technologies that has tracked overseas records for tackling the local challenges of Hong Kong in term of city design, planning, environmental conservation, engineering construction, IoT monitoring as well as law enforcement. We look forward to meeting you again at the 2024 Hong Kong 3D Geospatial Summit this year in April at CyberPort."
+            ]
+        }
+    ],
+    "guests": [
+          {
+            "guestId": 1,
+            "guestName": "Mr. Shaun Koo",
+            "guestTitle": "Co-Founder, Chief Technical Officer",
+            "language":"Language: English",
+            "guestInfo": "<b>Mr. Shaun Koo</b> is a seasoned technologist and entrepreneur, boasting over a decade of extensive involvement in the realms of software and hardware start-ups. His profound experience is accentuated by his role as a mentor with 500 Global, where he provides invaluable advice to high-growth start-ups specialising in diverse domains such as artificial intelligence, construction-tech, robotics, IoT, and analytics.Currently, Shaun holds the pivotal positions of Chief Executive Officer & Chief Technology Officer at H3 Zoom.ai. In this role, he is responsible for the overall digital strategic management, development, and go-to-market initiatives integral to the company’s growth efforts. Shaun’s responsibilities encompass overseeing the entire digital product roadmaps and spearheading end-to-end technology commercialisation and implementation initiatives on both domestic and international fronts.",
+            "guestImg": "./static/images/guests/H3Zoom.png",
+            "guestImgMini": "./static/img/guests/H3Zoom_mini.png",
+            "companyName": "H3Zoom.AI [Division of H3 Dynamics]",
+            "companyWebsite":"https://www.H3Zoom.AI/",
+            "companyImg": "./static/img/sponsors/H3Zoom-AI-small.png"
+
+          },{
+            "guestId": 2,
+            "guestName": "Mr. Zheng Yong",
+            "guestTitle": "Principal and CEO",
+            "language":"Language: Mandarin",
+            "guestInfo": "<b>Mr. Zheng Yong</b> has 20 years’ experience in surveying, GNSS and photogrammetry. He is a professional land surveyor as well as SLAM technology expert. He had served senior positions in the China GPS Research and Development Center, Trimble, Leica and Ashtech. Currently, he is the principal scientist and CEO of Beijing Wintech Science & Technology operating in the city of Beijing, Hong Kong and Netherlands.",
+            "guestImg": "./static/images/guests/ZhengYong.jpg",
+            "guestImgMini": "./static/img/guests/ZhengYong_mini.png",
+            "companyName": "Wintech",
+            "companyWebsite":"http://www.wtechgnss.com/",
+            "companyImg": "./static/img/sponsors/wintech.png"
+          },{
+            "guestId": 3,
+            "guestName": "Mr. Antti Järvenpää",
+            "guestTitle": "Support Engineer",
+            "language":"Language: English",
+            "guestInfo": "<b>Mr. Antti Järvenpää</b> Four years of experience with Terrasolid software, providing help and training for users to get the most out of their tools.  MSc graduate from Aalto University, Finland.",
+            "guestImg":"./static/img/guests/TerraSolid_mini.png",
+            "guestImgMini": "./static/img/guests/TerraSolid_mini.png",
+            "companyName": "TerraSolid",
+            "companyWebsite":"https://terrasolid.com/",
+            "companyImg":"./static/img/sponsors/Terrasolid.png"
+        },{
+            "guestId": 4,
+            "guestName": "Mr. Franz Malmer",
+            "guestTitle": "Principal of Aerial Survey Group",
+            "language":"Language: XXXXXXXXXXXXXXXXX",
+            "guestInfo": "<b>Mr. Franz Malmer</b>, with a Master’s degree in Electrical Engineering from Germany and the UK, has held technical and managerial roles in telecommunications globally.  Since 2011, he is the System Expert at Asian Aerospace Services in Bangkok, overseeing the growth of the remote sensing division.  His work with LiDAR technology has contributed to the precise measurement of canopy tree heights in dense jungles, with results presented at the ACRS 2014 conference.  Franz also creates custom software for AAS's operations and enjoys motorcycle tours in his free time.<br>Initially faced with the challenge of convincing clients about the benefits of LiDAR technology over conventional measurement methods, Franz and his colleague Hubert, in collaboration with Dr. Martin Isenburg, the creator of the renowned Lastools Software Suite, conducted groundbreaking experiments. Their findings demonstrated that LiDAR pulses could penetrate densely vegetated jungles, enabling the precise measurement of canopy tree heights of approximately 45 meters. The results were presented at the ACRS 2014 conference.",
+            "guestImg": "./static/img/guests/AAS_mini.png",
+            "guestImgMini": "./static/img/guests/AAS_mini.png",
+            "companyName": "Asian Aerospace Services",
+            "companyWebsite":"https://www.asianaerospaceservices.com/about-us.html",
+            "companyImg": "./static/img/sponsors/AAS-Logo.png"
+        },{
+            "guestId": 5,
+            "guestName": "Mr. Eric Yau",
+            "guestTitle": "Senior GIS Manager",
+            "language":"Language: Cantonese",
+            "guestInfo": "<b>Mr. Eric Yau</b> is the Senior Geospatial Manager of AMBIT Geospatial Solution Ltd, he has over 23 years of geomatic engineering experience including GIS, Remote Sensing, LiDAR and Digital Photogrammetry. He obtained his BA (Hons) in Geography from the Hong Kong Baptist University; MSc in GIS from the University College London and MA in Transport Policy & Planning from the University of Hong Kong. Throughout his two decades of local geospatial practice, he has developed a track career records through participate as the GIS Specialist roles in the consultancy services for various Hong Kong government departments including CEDD, PlanD, GEO, LandsD, AFCD, DSD, WSD, TD, HKHS, HD, PD, FSD and CIC etc. He is one of the pioneers in use of new generation of 3D GIS for applications in Hong Kong. Since 2014 he has been participating in using new generation of 3D geospatial technology to support smart city development for the government. AMBIT is currently the prime high resolution 3D city data provider to various government departments; its accomplished project areas have covered 95% of urban area of Hong Kong in term of aerial photogrammetry and has accomplished the LiDAR airborne acquisition for the entire 1024km2 of Hong Kong territory for CEDD in 2020.",
+            "guestImg": "./static/img/guests/EricYau.jpg",
+            "guestImgMini": "./static/img/guests/EricYau_mini.jpg",
+            "companyName": "AMBIT Geospatial Solution Ltd.",
+            "companyWebsite":"https://www.ambit-geospatial.com.hk/",
+            "companyImg": "./static/img/sponsors/AMBIT.png"
+        },{
+            "guestId": 6,
+            "guestName": "黃棟先生",
+            "guestTitle":"泰瑞歐洲研究院院長, 泰瑞數創科技（北京）有限公司首席科學家、博士",
+            "language":"Language: 普通话",
+            "guestInfo": "<b>黃棟先生</b>, 現任泰瑞數創歐洲研究院院長。 2007年於德國卡爾斯魯厄大學獲得計算機博士學位, 發表論文10餘篇（其中英文6篇），多次參加國內外學術會議。曾在戴姆勒克萊斯勒公司，西門子公司通訊安全研究中心(Siemens Corporate Research)工作, 從事信息系統集成和通訊系統開發工作。專業領域包括數位雙生平台和空間智能應用研發和設計，遙感測繪和GIS系統以及智慧城市系統等。2017年帶領研發的“SmartEarth實景世界雲計算和大數據平台”獲得國家地理信息科技進步二等獎。擁有國際認證信息系統審計師資格(CISA)和美國GARP認證金融風險管理經理資格(FRM)。",
+            "guestImg":"./static/img/guests/SmartEarth_mini.png",
+            "guestImgMini": "./static/img/guests/SmartEarth_mini.png",
+            "companyName": "泰瑞數創科技(北京)股份有限公司",
+            "companyWebsite":"https://www.smartearth.cn/index.php",
+            "companyImg": "./static/img/sponsors/SmartEarth.png"
+        },{
+            "guestId": 7,
+            "guestName": "Mr. Felix Puls",
+            "guestTitle": "Global Business Development Manager",
+            "language":"Language: XXXXXXXXXXXXXXXXXXXXXXXXXX",
+            "guestInfo": "<b>Mr. Felix Puls</b> Felix Puls is the Global Business Development Manager for Phase One Aerial Systems (PAS). He is responsible for expanding the PAS business with the latest complete airborne camera solutions, such as the ultra-large frame camera PAS PANA and the 2-in-1 large format and oblique sensor PAS 880i. Felix holds a Master degree in Geomatics from the Technical University of Munich, Germany. Working for more than 25 years as an International Sales and Business Development Manager in the earth observation industry, he has a wide variety of experience in photogrammetry and remote sensing from very high-resolution satellite imagery and products to high tech airborne imaging and LiDAR sensors.",
+            "guestImg": "./static/img/guests/PhaseOne_mini.png",
+            "guestImgMini": "./static/img/guests/PhaseOne_mini.png",
+            "companyName": "Phase One Asia Pacific Co. Ltd.",
+            "companyWebsite":"https://www.phaseone.com/applications/geospatial-imagery/",
+            "companyImg": "./static/img/sponsors/phaseone.svg"
+        },{
+            "guestId": 8,
+            "guestName": "黃先锋先生",
+            "guestTitle": "首席執行官",
+            "language":"Language: 普通话",
+            "guestInfo": "<b>黃先鋒先生</b>, 武漢大學測繪遙感信息工程國家重點實驗室教授、博導，航空航天攝影測量研究室主任，武漢大學文化遺產智能計算實驗室（教育部文科實驗室）副主任，香港科技大學兼職教授，武漢大勢智慧科技有限公司創始人，發表論文100餘篇，其中SCI論文40餘篇。2006年博士畢業留實驗室任教，其中，2010-2011在微軟亞洲研究院訪問研究，2012-2013在瑞士聯邦理工大學從事城市建模、城市大數據感知方面的研究工作。技術應用於文物高質量三維數字化和城市大場景高精度三維自動化建模，並應用於深圳、上海、廣州、武漢、蘭州等全國上百個城市的高精度三維重建、公共安全、應急場景、城市規劃和自然資源等各種應用；以及包括敦煌研究院、雲崗研究院、國家博物館等國內幾十家重要文化遺產保護單位的文物數字化保護中。",
+            "guestImg": "./static/img/guests/Daspatial.jpg",
+            "guestImgMini": "./static/img/guests/Daspatial_mini.png",
+            "companyName": "武汉大势智慧科技有限公司",
+            "companyWebsite":"https://daspatial.com/en/about",
+            "companyImg": "./static/img/sponsors/Daspatial.png"
+        }
+    ],
+    "sessions": [
+        {
+          "dayId":"day1",
+          "sessionTime": "09:30 AM - 7:00 PM",
+          "isNull": true,
+          "showBooth": true,
+          "speechs": [
+            {
+              "theme": "Booth Exhibition",
+              "themeInfo": "Experience the Cutting Edge Products & Meet the Presenters in the Booths"
+            }
+          ]
+        },
+        {
+          "dayId":"day2",
+          "sessionTime": "9:00 PM - 9:45 PM",
+          "speechs": [
+            {
+              "guestId": 5,
+              "theme": "Opening Remarks",
+              "themeInfo": "In the recent years, the promotion of use of digital technology is popular in Hong Kong; very often corporate users are given various technology solutions by vendors when encountering problem; it is difficult if not impossible for normal user to choose from all sorts of digital technologies ranging from AI, IoT, GIS or BIM etc..; all these are the most popular means of digital technology that exists commonly in smart government application. The key to success for implementing innovative technology in most of corporate or government projects are the vision to select the right technology as well as using the best vendors in the relevant discipline to carry out the work for you. In this assembly, we will benchmark similar application from the global perspective in order to provide insight to the audiences during decision making for innovative application.",
+              "themeVideo": "https://www.youtube.com/embed/qu7BGa1Bhsk?si=RExtZzs-Qf190rBF"
+            }
+          ]
+        },
+        {
+          "dayId":"day2",
+          "sessionTime": "1:15 PM - 1:45 PM",
+          "speechs": [
+            {
+              "guestId": 1,
+              "theme": "AI in the AEC (Architecture, Engineering & Construction) Industry",
+              "themeInfo": "H3Zoom is a highly success AI company in Asia region specialise in defect detection; developed for over 10 years by 4 million of imagery of training dataset, it forms such a national scale of success story in AI building defect detection. Nowadays at least 95% of public housing in Singapore is maintaining by H3Zoom’s AI application;  its  AI analysed report/results is even endorsed by the Singaporean national legal ordinance. Based on such success AI baseline model, it has been transforming its defect identification capability to drainage pipeline analysis for the PUB of the Singapore Government.   <br>The presentation aims to delve deep into the integration and impact of AI in the construction and architecture sectors. With the rapid advancements in AI, processes that were once manual and time-consuming, such as construction inspections, are undergoing significant transformations. Shaun Koo, the Chief Executive Officer and Co-Founder of H3 Zoom.AI, will provide insights into the challenges, integrations, and future prospects of AI in these sectors. The discussion will also touch upon the regulatory and ethical considerations when deploying AI for infrastructure monitoring across different countries.",
+              "themeVideo": "https://www.youtube.com/embed/lKD0QlLMpts?si=Aet3h8e6No0NMHSb"
+            }
+          ]
+        },
+        {
+          "dayId":"day2",
+          "sessionTime": "1:45 PM - 2:15 PM",
+          "speechs": [
+            {
+              "guestId": 2,
+              "theme": "天地一體化實景三維解決方案",
+              "themeInfo": "天地一體，我們是指在無人機解決快速獲取空中實景三維的同時，我們可以通過MS-96快速、高效地獲取地面甚至室內、地下的實景三維數據。然後將MS-96獲取的地面數據與航空攝影獲得的數據通過傾斜攝影建模軟體進行融合，從而實現從天空到地面、室內甚至地下融為一體的三維實景數據。MS-96實景三維系統不僅是一款背負式的三維實景系統，它通過更換搭載平台可以成為車載、靜態三維激光掃描儀，其通過SLAM融合INS算法，採集數據效率最高速度可達60KM每小時。<br>此次報告中，我們不僅帶來了SLAM+INS+航空攝影融合算法與其他SLAM產品的優勢與區別，同時會以案例形式來分享我們再實際數據生產過程中的應用方向，如大型商超的室內導航應用、城市級道理數據獲取方式，在不同環境中一機多用的數據成果展示，具體包括：人民大會堂金色大廳成果展示、城市級道路地面傾斜數據生成方式、室內傾斜模型效果展示、上萬平米商超數據成果展示、交通樞紐數據成果展示、工廠生產線數據成果展示等。",
+              "themeInfo_byKaden": "The conventional mobile mapping systems (MMS) face significant challenges when operating in Hong Kong's densely populated environment. The Viametris MS-96 stands out with its cutting-edge Slam algorithm, requiring minimal ground control points to achieve remarkably accurate results. This system excels in acquiring high-relative-accuracy LiDAR and top-notch imagery data, enabling the creation of superior-quality 3D city models. The MS-96 sensor is versatile, making it ideal for indoor or civil infrastructure 3D modeling, thus facilitating various applications such as Building Information Modeling (BIM), highways, tunnels, railway stations, and the preservation of historic or iconic structures.",
+              "themeVideo": "https://www.youtube.com/embed/X87DKyr5CtA?si=_ebGA6gJtejwvBU4"
+            }
+          ]
+        },
+        {
+          "dayId":"day2",
+          "sessionTime": "2:15 PM - 2:45 PM",
+          "speechs": [
+            {
+              "guestId": 3,
+              "theme": "THE POINT CLOUD INTELLIGENCE FROM THE BEST LIDAR POINT CLOUD PROCESSING SYSTEM IN THE WORLD",
+              "themeInfo": "TerraScan is a popular software application used for processing and analyzing point cloud data, particularly from airborne and terrestrial laser scanning systems (LiDAR). It is widely employed in various industries such as surveying, engineering, and infrastructure management. Automating point cloud processing tasks with TerraScan can greatly enhance efficiency and consistency in workflows. By leveraging TerraScan's automation capabilities through TerraScript, use can streamline and optimize point cloud processing workflows, saving time and effort while maintaining consistency and accuracy in results. In this seminar expert from TerraScan will use several usecases in Europe to demonstrate how to use automation and AI to effectively process pointcloud data.",
+              "themeVideo": "https://www.youtube.com/embed/k5-Ph870naU?si=m1YBT4tYoHVYYISn"
+            }
+          ]
+        },
+        {
+          "dayId":"day2",
+          "sessionTime": "2:45 PM - 3:15 PM",
+          "isNull": true,
+          "showBooth": true,
+          "speechs": [
+            {
+              "theme": "Break",
+              "themeInfo": "Coffee Break, Booth Exhibition and Networking"
+            }
+          ]
+        },
+        {
+          "dayId":"day2",
+          "sessionTime": "3:15 PM - 3:45 PM",
+          "speechs": [
+            {
+             "guestId": 5,
+              "theme": "The Missing Link to An Effective Spatial Decision Supporting System",
+              "themeInfo": "In the past ten years, due to the rapid development of oblique photogrammetry modelling technique and the BIM utilisation in digital twin application, it has made many corporate users started to develop departmental 3D viewing system for integrated management as well as dissemination of such high-resolution 3D spatial dataset. Various of naming has evolved for such 3D viewing system such as GeoBIM, DWSS, CDE, 3D online repository or digital twin visualisation system etc.. based on the will of the end users. For the purpose of enterprise application, the optimal technology to manipulate such massive amount of city scale spatial data is 3D GIS. The speaker will benchmark the latest 3D geospatial technology of the global industry; justify the critical components during selection of the 3D GIS; the shortage of existing common opensource 3D solution – Cesium and finally demonstrate the leading functionality of 3D GIS that is using in global regions including the London 3D smart city modelling and the special force operation at Middle East in Gaza.",
+              "themeVideo": "https://www.youtube.com/embed/qu7BGa1Bhsk?si=RExtZzs-Qf190rBF"
+            }
+          ]
+        },
+        {
+          "dayId":"day2",
+          "sessionTime": "3:45 PM - 4:15 PM",
+          "speechs": [
+            {
+              "guestId": 4,
+              "theme": "Aerial surveying is an indispensable tool in modern geospatial analysis",
+              "themeInfo": "Aerial surveying is an indispensable tool in modern geospatial analysis, environmental monitoring, urban planning, and various other fields. Asian Aerospace Services uses the Diamond Aircraft DA42MPP & DA62MPP, known for the most efficient aircraft in the industry, equipped with state-of-the-art remote sensing solutions from Riegl (Lidar Scanner) and IGI ( IMU, Digital Aerial Camera) to do Airborne Surveys in a wide range of applications in the Asia-Pacific Region. In this seminar,  Mr. Franz Malmer will delve into the intricacies of aerial surveying, exploring its experiences in using cutting edge aerial survey applications and methodologies in the Japan region, along with disscusing the diffculties and challenges of deploying aerial survey mission.",
+              "themeVideo": "https://www.youtube.com/embed/NXEzOuPO-N8?si=1BDTaREQpso69moU"
+            }
+          ]
+        },
+        {
+          "dayId":"day2",
+          "sessionTime": "4:15 PM - 4:45 PM",
+          "speechs": [
+            {
+              "guestId": 6,
+              "theme": "SKYLINEGLOBE 3D GIS APPLICATION IN EMERGENCY MANAGEMENT AND CONSTRUCTION DIGITISATION (SKYLINEGLOBE 在應急管理與智慧工地的應用)",
+              "themeInfo": "基於Skyline平台，運用3DGIS+IOT技術，在應急管理方面：結合自然災害基本特徵，整合二三維地理空間數據、業務數據、多媒體數據，疊加動態/靜態應急數據信息，通過多源數據融合，建立內容豐富、位置準確、立體多維的三維可視化場景，並基於三維可視化場景，研發場景瀏覽、信息匯聚、災情信息分析、災情監控、輔助決策和應急指揮等功能，實現災害的態勢感知、災害趨勢推演、力量調度與部署、決策方案生成，全面提升應急部門災害救援效率，有效減少人員傷亡與財產損失。<br>在智慧工地方面：將工地管理過程中產生和收集到的數據，進行數字化、信息化的高密度融合，通過多源數據融合技術將工地進行高仿真還原，並將施工現場安裝的多種前端感知設備和信息采集設備所獲取的數據資源匯集到系統中與三維空間數據進行綁定，可視化展現出前端設備的空間位置信息，達到三維可視化展示工地施工的全過程，有效的做到了工地信息的精細化管理。",
+              "themeVideo": "https://www.youtube.com/embed/543JVRszc5U?si=5o5AknUIf-kNibF5"
+            }
+          ]
+        },
+        {
+          "dayId":"day2",
+          "sessionTime": "4:45 PM - 5:15 PM",
+          "isNull": true,
+          "showBooth": true,
+          "speechs": [
+            {
+              "theme": "Break",
+              "themeInfo": "Coffee Break, Booth Exhibition and Networking"
+            }
+          ]
+        },
+        {
+          "dayId":"day2",
+          "sessionTime": "5:15 PM - 5:45 PM",
+          "speechs": [
+            {
+              "guestId": 7,
+              "theme": "INNOVATION IN AERIAL IMAGING",
+              "themeInfo":"Phase One Geospatial - New ways with Phase One medium format cameras for airborne mapping and surveying.  Achieve superior image quality, dynamic range, and geometric accuracy for precise geospatial applications.  Phase One has a long history with a focus on the best image quality.  This experience is now brought fully into aerial image capture systems by new products and new ways of handling image data with a workflow fitting huge amounts of data.  The presentation shows the actual status and gives an idea of the next developments.",
+              "themeBackup": "Boost your productivity by Phase One Industrial",
+              "themeInfoBackup": "Introducing the world’s highest resolution sensor the iXM-RS150F, this is the PhaseOne’s flagship full frame ultra-high resolution aerial camera with an image size of 150MP, it allows perfect image quality in a large range of application including aerial mapping, forensic study, cultural heritage conservation, inspection, forestry and agriculture etc.. Another iconic product for local market is the iXM-100, which is the new uniquely designed 100MP high resolution camera for UAV based aerial imagery. Application examples all over the world in carried industries will be demonstrated in the presentation. Results of integrated application with AMBIT’s M+ UAV and manned helicopter in Hong Kong will be presented.",
+              "themeInfo_byKaden": "Introducing the world’s highest resolution sensor the PAS 880 , this is the PhaseOne flagship full frame ultra-high resolution aerial camera with 280MP nadia image and 150MP oblique image. The high-quality images can be used for in several application including aerial mapping, forensic study, cultural heritage conservation, inspection, forestry and agriculture. The PhaseOne system was deployed in several largest 3D City Mapping projects in the world, such as London 3D City model, Switzerland and Australia.",
+              "themeVideo": "https://www.youtube.com/embed/9TvLfSgM8Wo?si=HHiPaPcU7ZEoBL3A"
+            }
+          ]
+        },
+        {
+          "dayId":"day2",
+          "sessionTime": "5:45 PM - 6:15 PM",
+          "speechs": [
+            {
+              "guestId": 8,
+              "theme": "空天地融合的實景三維建設軟硬件工具與典型應用",
+              "themeInfo": "武漢大勢智慧是中國領先的、用戶量最多的實景三維公司，擁有領先的AI實景立體專利、三維優化技術，線上渲染效率極快。本次會在峰會上報告實景三維建模技術的最新進展，並結合大城市實景三維建設過程中的數據處理、計算效率、數據更新、數據融合、色彩優化、輕量化展示等技術難題進行分享；報告了實景三維建設的整體技術架構、相關的軟硬體工具和整個工藝體系，以及這些工具在實際工程中的應用效果；同時，分享了高精度實景三維技術和成果在深圳、北京、廣州等智慧城市方向的應用，以及在長城、敦煌莫高窟、雲岡石窟、武當山等文化遺產保存領域的應用。在本次峰會上也會為大家帶來非常多的實景三維，專屬的文化、古籍保護技術。",
+              "themeVideo": "https://www.youtube.com/embed/0XeMsEyhe8I"
+            }
+          ]
+        },
+        {
+          "dayId":"day2",
+          "sessionTime": "6:15 PM - 6:30 PM",
+          "speechs": [
+            {
+              "guestId": 5,
+              "theme": "Closing Remarks",
+              "themeInfo": "Hong Kong is a city with profound tradition for the fusion of oriental and western cultures; while adopting various international as well as mainland China’s technologies for innovative applications, it is important to realise the local constraints and challenges in smart city application; the best approach for implementing innovative technology is to allow local party to jointly develop the solution; such that it can facilitate project outcome through utilisation of local knowledge as well as maximise the benefit of technological innovation to the local society."
+            }
+          ]
+        },
+        {
+          "dayId":"day3",
+          "sessionTime": "9:00 PM - 9:25 PM",
+          "isNull": true,
+          "showBooth": true,
+          "speechs": [
+            {
+              "theme": "Exhibition",
+              "themeInfo": "Final opportunity to visit the exhibition stands"
+            }
+          ]
+        },
+        {
+          "dayId":"day3",
+          "sessionTime": "9:25 PM - 10:15 PM",
+          "speechs": [
+            {
+              "guestId": 2,
+              "theme": "天地一體化實景三維解決方案",
+              "themeInfo": "天地一體，我們是指在無人機解決快速獲取空中實景三維的同時，我們可以通過MS-96快速、高效地獲取地面甚至室內、地下的實景三維數據。然後將MS-96獲取的地面數據與航空攝影獲得的數據通過傾斜攝影建模軟體進行融合，從而實現從天空到地面、室內甚至地下融為一體的三維實景數據。MS-96實景三維系統不僅是一款背負式的三維實景系統，它通過更換搭載平台可以成為車載、靜態三維激光掃描儀，其通過SLAM融合INS算法，採集數據效率最高速度可達60KM每小時。<br>此次報告中，我們不僅帶來了SLAM+INS+航空攝影融合算法與其他SLAM產品的優勢與區別，同時會以案例形式來分享我們再實際數據生產過程中的應用方向，如大型商超的室內導航應用、城市級道理數據獲取方式，在不同環境中一機多用的數據成果展示，具體包括：人民大會堂金色大廳成果展示、城市級道路地面傾斜數據生成方式、室內傾斜模型效果展示、上萬平米商超數據成果展示、交通樞紐數據成果展示、工廠生產線數據成果展示等。"
+            }
+          ]
+        },
+        {
+          "dayId":"day3",
+          "sessionTime": "10:20 PM - 11:25 PM",
+          "speechs": [
+            {
+              "guestId": 3,
+              "theme": "THE POINT CLOUD INTELLIGENCE FROM THE BEST LIDAR POINT CLOUD PROCESSING SYSTEM IN THE WORLD",
+              "themeInfo": "TerraScan is a popular software application used for processing and analyzing point cloud data, particularly from airborne and terrestrial laser scanning systems (LiDAR). It is widely employed in various industries such as surveying, engineering, and infrastructure management. Automating point cloud processing tasks with TerraScan can greatly enhance efficiency and consistency in workflows. By leveraging TerraScan's automation capabilities through TerraScript, use can streamline and optimize point cloud processing workflows, saving time and effort while maintaining consistency and accuracy in results. In this seminar expert from TerraScan will use several usecases in Europe to demonstrate how to use automation and AI to effectively process pointcloud data."
+            }
+          ]
+        },
+        {
+          "dayId":"day3",
+          "sessionTime": "11:30 PM - 12:30 PM",
+          "speechs": [
+            {
+              "guestId": 3,
+              "theme": "THE POINT CLOUD INTELLIGENCE FROM THE BEST LIDAR POINT CLOUD PROCESSING SYSTEM IN THE WORLD",
+              "themeInfo": "TerraScan is a popular software application used for processing and analyzing point cloud data, particularly from airborne and terrestrial laser scanning systems (LiDAR). It is widely employed in various industries such as surveying, engineering, and infrastructure management. Automating point cloud processing tasks with TerraScan can greatly enhance efficiency and consistency in workflows. By leveraging TerraScan's automation capabilities through TerraScript, use can streamline and optimize point cloud processing workflows, saving time and effort while maintaining consistency and accuracy in results. In this seminar expert from TerraScan will use several usecases in Europe to demonstrate how to use automation and AI to effectively process pointcloud data."
+            }
+          ]
+        },
+        {
+          "dayId":"day3",
+          "sessionTime": "2:00 PM - 2:40 PM",
+          "speechs": [
+            {
+             "guestId": 5,
+              "theme": "The Missing Link to An Effective Spatial Decision Supporting System",
+              "themeInfo": "In the past ten years, due to the rapid development of oblique photogrammetry modelling technique and the BIM utilisation in digital twin application, it has made many corporate users started to develop departmental 3D viewing system for integrated management as well as dissemination of such high-resolution 3D spatial dataset. Various of naming has evolved for such 3D viewing system such as GeoBIM, DWSS, CDE, 3D online repository or digital twin visualisation system etc.. based on the will of the end users. For the purpose of enterprise application, the optimal technology to manipulate such massive amount of city scale spatial data is 3D GIS. The speaker will benchmark the latest 3D geospatial technology of the global industry; justify the critical components during selection of the 3D GIS; the shortage of existing common opensource 3D solution – Cesium and finally demonstrate the leading functionality of 3D GIS that is using in global regions including the London 3D smart city modelling and the special force operation at Middle East in Gaza."
+            }
+          ]
+        },
+        {
+          "dayId":"day3",
+          "sessionTime": "2:45 PM - 3:20 PM",
+          "speechs": [
+            {
+              "guestId": 4,
+              "theme": "Aerial surveying is an indispensable tool in modern geospatial analysis",
+              "themeInfo": "Aerial surveying is an indispensable tool in modern geospatial analysis, environmental monitoring, urban planning, and various other fields. Asian Aerospace Services uses the Diamond Aircraft DA42MPP & DA62MPP, known for the most efficient aircraft in the industry, equipped with state-of-the-art remote sensing solutions from Riegl (Lidar Scanner) and IGI ( IMU, Digital Aerial Camera) to do Airborne Surveys in a wide range of applications in the Asia-Pacific Region. In this seminar,  Mr. Franz Malmer will delve into the intricacies of aerial surveying, exploring its experiences in using cutting edge aerial survey applications and methodologies in the Japan region, along with disscusing the diffculties and challenges of deploying aerial survey mission."
+            }
+          ]
+        },
+        {
+          "dayId":"day3",
+          "sessionTime": "3:25 PM - 3:55 PM",
+          "speechs": [
+            {
+              "guestId": 6,
+              "theme": "SKYLINEGLOBE 3D GIS APPLICATION IN EMERGENCY MANAGEMENT AND CONSTRUCTION DIGITISATION (SKYLINEGLOBE 在應急管理與智慧工地的應用)",
+              "themeInfo": "基於Skyline平台，運用3DGIS+IOT技術，在應急管理方面：結合自然災害基本特徵，整合二三維地理空間數據、業務數據、多媒體數據，疊加動態/靜態應急數據信息，通過多源數據融合，建立內容豐富、位置準確、立體多維的三維可視化場景，並基於三維可視化場景，研發場景瀏覽、信息匯聚、災情信息分析、災情監控、輔助決策和應急指揮等功能，實現災害的態勢感知、災害趨勢推演、力量調度與部署、決策方案生成，全面提升應急部門災害救援效率，有效減少人員傷亡與財產損失。<br>在智慧工地方面：將工地管理過程中產生和收集到的數據，進行數字化、信息化的高密度融合，通過多源數據融合技術將工地進行高仿真還原，並將施工現場安裝的多種前端感知設備和信息采集設備所獲取的數據資源匯集到系統中與三維空間數據進行綁定，可視化展現出前端設備的空間位置信息，達到三維可視化展示工地施工的全過程，有效的做到了工地信息的精細化管理。"
+            }
+          ]
+        },
+        {
+          "dayId":"day3",
+          "sessionTime": "3:55 PM - 4:30 PM",
+          "speechs": [
+            {
+              "guestId": 6,
+              "theme": "SKYLINEGLOBE 3D GIS APPLICATION IN EMERGENCY MANAGEMENT AND CONSTRUCTION DIGITISATION (SKYLINEGLOBE 在應急管理與智慧工地的應用)",
+              "themeInfo": "基於Skyline平台，運用3DGIS+IOT技術，在應急管理方面：結合自然災害基本特徵，整合二三維地理空間數據、業務數據、多媒體數據，疊加動態/靜態應急數據信息，通過多源數據融合，建立內容豐富、位置準確、立體多維的三維可視化場景，並基於三維可視化場景，研發場景瀏覽、信息匯聚、災情信息分析、災情監控、輔助決策和應急指揮等功能，實現災害的態勢感知、災害趨勢推演、力量調度與部署、決策方案生成，全面提升應急部門災害救援效率，有效減少人員傷亡與財產損失。<br>在智慧工地方面：將工地管理過程中產生和收集到的數據，進行數字化、信息化的高密度融合，通過多源數據融合技術將工地進行高仿真還原，並將施工現場安裝的多種前端感知設備和信息采集設備所獲取的數據資源匯集到系統中與三維空間數據進行綁定，可視化展現出前端設備的空間位置信息，達到三維可視化展示工地施工的全過程，有效的做到了工地信息的精細化管理。"
+            }
+          ]
+        }
+      ],
+    "historicals": [
+        {
+            "title": "Photos of the 2013 Hong Kong 3D GIS Summit",
+            "imgs": [
+                "./static/images/summit/2013/1.png",
+                "./static/images/summit/2013/2.png",
+                "./static/images/summit/2013/3.png",
+                "./static/images/summit/2013/4.png",
+                "./static/images/summit/2013/5.png"
+            ]
+        },
+        {
+            "title": "Photos of the 2015 Hong Kong 3D GIS Summit",
+            "imgs": [
+                "./static/images/summit/2015/1.png",
+                "./static/images/summit/2015/2.png",
+                "./static/images/summit/2015/3.png",
+                "./static/images/summit/2015/4.png",
+                "./static/images/summit/2015/5.png"
+            ]
+        },
+        {
+            "title": "Photos of the 2016 Hong Kong 3D GIS Summit",
+            "imgs": [
+                "./static/images/summit/2016/1.jpg",
+                "./static/images/summit/2016/2.jpg",
+                "./static/images/summit/2016/3.jpg",
+                "./static/images/summit/2016/4.jpg",
+                "./static/images/summit/2016/5.jpg"
+            ]
+        },
+        {
+            "title": "Photos of the 2017 Hong Kong 3D GIS Summit",
+            "imgs": [
+                "./static/images/summit/2017/1.jpg",
+                "./static/images/summit/2017/2.jpg",
+                "./static/images/summit/2017/3.jpg",
+                "./static/images/summit/2017/4.jpg",
+                "./static/images/summit/2017/5.jpg"
+            ]
+        },
+        {
+            "title": "Photos of the 2018 Hong Kong 3D GIS Summit",
+            "imgs": [
+                "./static/images/summit/2018/1.jpg",
+                "./static/images/summit/2018/2.jpg",
+                "./static/images/summit/2018/3.jpg",
+                "./static/images/summit/2018/4.jpg",
+                "./static/images/summit/2018/5.jpg"
+            ]
+        },
+        {
+          "title": "Photos of the 2024 Hong Kong 3D GIS Summit",
+          "imgs": [
+              "./static/images/summit/2018/1.jpg",
+              "./static/images/summit/2018/2.jpg",
+              "./static/images/summit/2018/3.jpg",
+              "./static/images/summit/2018/4.jpg",
+              "./static/images/summit/2018/5.jpg"
+          ]
+      }
+    ],
+    "booths": [
+      {
+        "boothTheme":"Skyline HTML5 3D Web Platform - manned by Captain Sun",
+        "boothInfo": "The Skyline Globe Software System is one of the best 3D GIS system in the industry. Mr. Captain Sun from Skyline will demonstrate how to utilize the Skyline product series for 3D GIS analysis. Several 3D models will be displayed with Skyline TerraExplorer, which will present the data in a new level by simply clicking and scrolling, user experience an extremely detailed view of 3D Mesh Model of Hong Kong. In addition, methodology to create the extraordinary 3D models with Skyline Software Systems will also be presented. Live demonstrations including the latest integrated application with Microsoft Hololen2 AR visualization experiencing as well as the completely new version 8 of SkylineGlobe 3D GIS solution.",
+        "boothImg":"./static/img/sponsors/SKYLINE.png",
+        "boothDescVideo": "https://www.youtube.com/embed/23IoJfeyuAg",
+        "companyWebsite":"https://www.skylinesoft.com/about/"
+      },{
+        "boothTheme":"Ambit Geospatial – manned by Denson Kong and Rik Kam",
+        "boothInfo": "The presenter of AMBIT will showcase its latest aerial surveying UAV – Mark X,  which is designed as the intermediate option of UAV in between the product line of DJI’s Mavic 3 and M300; which is light weight enough to be below 7 kg yet provides an hour of endurance of flight time as well as capable to mount industrial grade payload (3kg) of sensors to acquire highest quality of both photogrammetry and LiDAR data. Such US patented design is the best of its breed in the aerial surveying industry; and is the fourth generation of aerial surveying UAV that is design and manufactured by AMBIT since 2014 in Hong Kong. Custom developed handheld photogrammetric devices – Pano360 and Spatial – X, which is designed for close range photogrammetry 3D application as well as AI inputting data source will be demonstrated in the booth. ",
+        "boothImg":"./static/img/sponsors/AMBIT.png",
+        "companyWebsite": "https://www.ambit-geospatial.com.hk/about.html"
+      },{
+        "boothTheme":"ViAmetris Mobile Mapping Systems – manned by Zheng Yong",
+        "boothInfo":"The conventional mobile mapping systems (MMS) face significant challenges when operating in Hong Kong's densely populated environment. The Viametris MS-96 stands out with its cutting-edge Slam algorithm, requiring minimal ground control points to achieve remarkably accurate results. This system excels in acquiring high-relative-accuracy LiDAR and top-notch imagery data, enabling the creation of superior-quality 3D city models. The MS-96 sensor is versatile, making it ideal for indoor or civil infrastructure 3D modeling, thus facilitating various applications such as Building Information Modeling (BIM), highways, tunnels, railway stations, and the preservation of historic or iconic structures.",
+        "boothInfo_Backup": "Mr Zheng yong from WinTech will demonstrate a few ViAmetris newest city mobile mapping products, including ViAmetris iMS3D bMS3D vMS3D and the latest of VMMS 3D system MS-96 Mobile Scanning Technology For any their application in smart government and smart city. VIAMETRIS is the manufacturer of mobile mapping systems to address indoor/outdoor scanning challenges around the world. For 15 years, ViAmetris developed accurate, high quality and value-added solutions to improve acquisition processes and data management for Lidar based mapping, point cloud management in general, and integration of subsequent data collection. Viametris also has a range of post-processing software (PPIMMS) and automatic scan data recognition software (Vision MaGeLAAn) for civil engineering, land surveying, architecture, and BIM usecase.",
+        "boothImg":"./static/img/sponsors/wintech.png",
+        "companyWebsite":"http://www.wtechgnss.com/col.jsp?id=118"
+      },{
+        "boothTheme":"Automating and Digitizing Building Facade Inspections - manned by Shaun Koo",
+        "boothInfo": "Mr. Shaun Koo will present the H3 Zoom developed AI system that is capable of detecting over 30 building and facade defect types, including cracks, corrosion, paint peeling. In the demonstration, defects can be identified on surfaces such as concrete, cladding, glass, or metallic surfaces, which can improves safety by reducing work-at-height incidents through automated drone inspections that can reach elevated and hard to access areas, accelerate the building inspection process with lower cost.",
+        "boothImg":"./static/img/sponsors/H3Zoom-AI-small.png",
+        "companyWebsite":"https://www.h3zoom.ai/about-us"
+      },{
+        "boothTheme":"Demonstrate Professional Fix-Wing Aerial Survey Services and Systems - manned by Franz Malmer",
+        "boothInfo": "In Asian Aerospace Services’ booth Mr. Franz Malmer will demonstrate the survey experience and end product of using Diamond Aircraft DA42MPP & DA62MPP, known for the most efficient aircraft in the industry. The aircrafts are equipped with state-of-the-art remote sensing solutions from Riegl (Lidar Scanner) and IGI ( IMU, Digital Aerial Camera) to do Airborne Surveys in a wide range of applications such as Infrastructure Planning (Powerline, Pipeline, Railway, Roads, Industry ), Mining ( Geology, Geography, Geomorphology ), Disaster Prevention ( Flood, Landslides), Vegetation Analysis ( Forestry, Precision Farming ), Mapping ( City Models, Topographic Maps, Corridors, Landuse ) and Archeology.",
+        "boothImg":"./static/img/sponsors/AAS-Logo.png",
+        "companyWebsite":"https://www.asianaerospaceservices.com/about-us.html"
+      },{
+        "boothTheme":"一體化高精度實景三維技術 – manned by 周北辰",
+        "boothInfo": "展台將分享由我們公司自研自采的高精度實景三維技術和成果，在深圳、北京、廣州等智慧城市方向的應用，以及在長城、敦煌莫高窟、雲崗石窟、武當山等文化遺產保護領域的應用。展品產品有雙魚系列、定拍DShot、MiniRTK、智影系列、鷹眼系列等等，配套展示的軟件有重建大師、雲端地球、重建農場、模方、DasViewer、網格大師等等。",
+        "boothImg":"./static/img/sponsors/Daspatial.png",
+        "companyWebsite":"https://www.daspatial.com/en/about"
+      },{
+        "boothTheme":"Efficient Point Cloud Processing and 3D Vector Data Creation - manned by Antti Järvenpää",
+        "boothInfo": "TerraScan is the main application in the Terrasolid Software family for managing and processing all types of point clouds. Mr. Antti Järvenpää will demonstrate how to use TerraScan for effective LiDAR data processing. For example, by using the import and project structuring tools for handling the massive number of points of a laser scanning campaign, as well as the corresponding trajectory information. Various classification routines enable the automatic filtering of the point cloud in TerraScan. In addition, automated tools for creating 3D vector data based on the laser points will also be presented in the booth.",
+        "boothImg":"./static/img/sponsors/Terrasolid.png",
+        "companyWebsite":"https://terrasolid.com/"
+      },{
+        "boothTheme":"Revolutionizing Surveying, Construction, and Urban Development - manned by Jason Lim",
+        "boothInfo": "Explore the transformative power of Stonex's GNSS technology on surveying, construction, and urban development.  At our exhibition booth, Stonex’s representative will highlight the precision of their systems, with the detailed case studies from the intricate mapping of cityscapes to the precise docking of the Italian Navy's CAVOUR aircraft carrier.  Delve into case studies that demonstrate how GNSS is critical to the accuracy of large-scale projects and the innovation behind smart city infrastructure.  Our showcase will provide a deep dive into how Stonex's GNSS solutions are integral in shaping the future of global navigation and geospatial intelligence.  Join us to understand the precision that drives technological evolution.",
+        "boothImg":"./static/img/sponsors/Stonex.png",
+        "companyWebsite":"https://www.stonex.it/chi-siamo/societa/"
+      },{
+        "boothTheme":"Immersive 3D Visualization - manned by Orlando Grimaldi",
+        "boothInfo": "3D PluraView System provide the optimum stereo-viewing environment for a comfortable and fatigue-free work experience with all 3D-stereo applications. Our innovative and reliable PluraView beam-splitter technology is the basis for pixel-precise, stereoscopic 3D image displays, offering the highest stereo viewing quality possible. Currently, PluraView stereo displays can be configured with screen diagonals of up to 28”, resolutions up to 4K (UHD) and a color depth of 10-bit per pixel.",
+        "boothImg":"./static/img/sponsors/schneider-digital-logo.svg",
+        "companyWebsite":"https://www.schneider-digital.com/en/"
+      },{
+        "boothTheme":"PhaseOne Aerial Survey Camera Systems – manned by Felix Puls",
+        "boothInfo":"Introducing the world’s highest resolution sensor the PAS 880 , this is the PhaseOne flagship full frame ultra-high resolution aerial camera with 280MP nadia image and 150MP oblique image. The high-quality images can be used for in several application including aerial mapping, forensic study, cultural heritage conservation, inspection, forestry and agriculture. The PhaseOne system was deployed in several largest 3D City Mapping projects in the world, such as London 3D City model, Switzerland and Australia.",
+        "boothInfo_Backup": "Phase One has core imaging technologies and a range of digital cameras and imaging modules, setting new standards for image quality in terms of resolution, dynamic range, color fidelity and geometric accuracy.  Ms. Joanna Cheng from Phase One will present their precise aerial 2D and 3D mapping cameras and photogrammetry solutions at their booth. The solutions simplify aerial survey and mapping processes with a diverse and easy-to-integrate line of product. ",
+        "boothImg":"./static/img/sponsors/phaseone.svg",
+        "companyWebsite":"https://www.phaseone.com/applications/geospatial-imagery/"
+      },{
+        "boothTheme":"Precision Location Solutions for Indoor and Outdoor Tracking – manned by Eric Tam",
+        "boothInfo":"Discover Precision Location Solutions for Indoor and Outdoor Tracking. Our cutting-edge UWB and Bluetooth AoA real-time location systems deliver unparalleled accuracy, allowing you to track and locate assets with pinpoint precision. Experience reliable wireless positioning technology for enhanced efficiency and peace of mind.The exhibits we bring this time will bring you a wonderful experience. U3000 series positioning base stations suitable for different environments; Equipment suitable for different work environments - Tb series;There is also our flagship product - TS3500-cs, a high-precision wristband watch with a screen display.",
+        "boothImg":"./static/img/sponsors/GatWish.svg",
+        "companyWebsite":"https://gatwish.com.hk/#services"
+      }
+    ]
+}
