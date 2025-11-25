@@ -115,17 +115,6 @@
             "companyName": "Phase One Asia Pacific Co. Ltd.",
             "companyWebsite":"https://www.phaseone.com/applications/geospatial-imagery/",
             "companyImg": "./static/img/sponsors/phaseone.svg"
-        },{
-            "guestId": 8,
-            "guestName": "黃先锋先生",
-            "guestTitle": "首席執行官",
-            "language":"Language: 普通话",
-            "guestInfo":[ "<b>黃先鋒先生</b>, 武漢大學測繪遙感信息工程國家重點實驗室教授、博導，航空航天攝影測量研究室主任，武漢大學文化遺產智能計算實驗室（教育部文科實驗室）副主任，香港科技大學兼職教授，武漢大勢智慧科技有限公司創始人，發表論文100餘篇，其中SCI論文40餘篇。2006年博士畢業留實驗室任教，其中，2010-2011在微軟亞洲研究院訪問研究，2012-2013在瑞士聯邦理工大學從事城市建模、城市大數據感知方面的研究工作。技術應用於文物高質量三維數字化和城市大場景高精度三維自動化建模，並應用於深圳、上海、廣州、武漢、蘭州等全國上百個城市的高精度三維重建、公共安全、應急場景、城市規劃和自然資源等各種應用；以及包括敦煌研究院、雲崗研究院、國家博物館等國內幾十家重要文化遺產保護單位的文物數字化保護中。"],
-            "guestImg": "./static/img/guests/Daspatial.jpg",
-            "guestImgMini": "./static/img/guests/Daspatial_mini.png",
-            "companyName": "武汉大势智慧科技有限公司",
-            "companyWebsite":"https://daspatial.com/en/about",
-            "companyImg": "./static/img/sponsors/Daspatial.png"
         }
     ],
     "sessions": [
