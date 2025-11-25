@@ -27,7 +27,9 @@
         {
             "head": "About Hong Kong 3D Geospatial Summit",
             "subHeads": [
-              "The Hong Kong 3D Geospatial Summit is a premier annual user conference which brings together the local GIS professionals, geospatial users and stakeholders in a gathering at CyberPort; this assembly targeted to brainstorm with new insights and advanced geospatial technologies related to smart city applications from expert speakers all over the world. Since 2014 we have been promoting the 3D geospatial solutions for optimum local usage at Hong Kong through this summit. This is an annual local 3D geospatial iconic event that you cannot absent; it brings overseas expertise and application experiences to benchmark local Hong Kong geospatial applications. The mission of the event is to introduce global leading geospatial technology to local practice; most of the presentation topics are overseas application examples as well as from mainland China case references. The spirit of summit is to promote the benchmarking of global geospatial technology to local industry practice; in order to validate the orientation of existing digital technology such that helping user to find optimum digital solution to their projects. Also, the goal of this event is to demonstrate highly matured technologies that has tracked overseas records for tackling the local challenges of Hong Kong in term of city design, planning, environmental conservation, engineering construction, IoT monitoring as well as law enforcement. We look forward to meeting you again at the 2024 Hong Kong 3D Geospatial Summit this year in April at CyberPort."
+              "The Hong Kong 3D Geospatial Summit is a premier annual user conference that brings together local GIS professionals, geospatial users, and stakeholders in a collaborative gathering. This event aims to explore new insights and advanced geospatial technologies related to smart city applications, with expert speakers from around the world sharing their knowledge and solutions. Since 2014, we have been promoting 3D geospatial technologies for optimal local application in Hong Kong through this Summit. As an iconic annual event, it provides an opportunity to benchmark local geospatial applications against international expertise and experiences.",
+              "The mission of the Summit is to introduce globally leading geospatial technologies into local practices; most of the presentation topics will focus on international applications, with some references from Mainland China. The spirit of the Summit is to promote the benchmarking of global geospatial technologies against local industry needs, helping users to validate their digital strategies and find the best solutions for their projects. Additionally, the event aims to showcase highly matured technologies with proven international success, addressing local challenges in city design, planning, environmental conservation, engineering construction, IoT monitoring, and law enforcement.",
+              "We look forward to seeing you at the 2025 Hong Kong 3D Geospatial Summit, which will be held this year inside the venue of the Construction Innovation Expo (CIExpo 2025)."
             ]
         }
     ],
@@ -135,8 +137,7 @@
               "themeInfo": "Experience the Cutting Edge Products & Meet the Presenters in the Booths"
             }
           ]
-        },
-        {
+        },{
           "dayId":"day2",
           "sessionTime": "9:00 PM - 9:45 PM",
           "speechs": [
@@ -147,8 +148,7 @@
               "themeVideo": "https://www.youtube.com/embed/qu7BGa1Bhsk?si=RExtZzs-Qf190rBF"
             }
           ]
-        },
-        {
+        },{
           "dayId":"day2",
           "sessionTime": "1:15 PM - 1:45 PM",
           "speechs": [
@@ -159,8 +159,7 @@
               "themeVideo": "https://www.youtube.com/embed/lKD0QlLMpts?si=Aet3h8e6No0NMHSb"
             }
           ]
-        },
-        {
+        },{
           "dayId":"day2",
           "sessionTime": "1:45 PM - 2:15 PM",
           "speechs": [
@@ -172,8 +171,7 @@
               "themeVideo": "https://www.youtube.com/embed/X87DKyr5CtA?si=_ebGA6gJtejwvBU4"
             }
           ]
-        },
-        {
+        },{
           "dayId":"day2",
           "sessionTime": "2:15 PM - 2:45 PM",
           "speechs": [
