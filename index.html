@@ -219,7 +219,9 @@
           </div>
 
           <div class="guestInfo">
-            <span v-html="currentGuest.guestInfo"></span>
+            <template v-for="(guestInfo, infoIndex) in currentGuest.guestInfo">
+                  <span v-html="guestInfo"></span>
+            </template>
             <img v-if="currentGuest.companyImg" :src="currentGuest.companyImg" />
           </div>
         </div>
