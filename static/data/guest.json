@@ -1,11 +1,11 @@
 {
     "loadUrl-注释":"https://ambit-summit.oss-cn-hongkong.aliyuncs.com/",
     "eventInfo":{
-        "summitTheme": "THE SYNERGY OF CITY BIG DATA AND <br>GEO-AI FOR SMART GOVERNMENT",
+        "summitTheme": "The Triennial Flagship Event - Construction Innovation Expo 2025",
         "eventDate": [
           {"id":"day1","label":"Day 1","dateDisplay":"December 11 2025 (Thursday)","exhibition":"9:30 AM – 7:00 PM (GMT+8)","presentation":null},
-          {"id":"day2","label":"Day 2","dateDisplay":"December 12, 2025 (Friday)","exhibition":"9:00 AM – 7:00 PM (GMT+8)","presentation":"9:00 AM – 7:00 PM (GMT+8)"},
-          {"id":"day3","label":"Day 3","dateDisplay":"December 12, 2025 (Friday)","exhibition":"9:00 AM – 4:30 PM (GMT+8)","presentation":"9:00 AM – 4:30 PM (GMT+8)"}
+          {"id":"day2","label":"Day 2","dateDisplay":"December 12, 2025 (Friday)","exhibition":"8:30 AM – 7:00 PM (GMT+8)","presentation":"8:30 AM – 7:00 PM (GMT+8)"},
+          {"id":"day3","label":"Day 3","dateDisplay":"December 13, 2025 (Saturday)","exhibition":"9:00 AM – 4:30 PM (GMT+8)","presentation":"9:00 AM – 4:30 PM (GMT+8)"}
         ],
         "venue":"CIExpo 2025 - G24",
         "location":"Hong Kong Convention and Exhibition Centre (HKCEC) – Hall 1 A-B",
@@ -51,7 +51,7 @@
             "guestName": "Mr. Zheng Yong",
             "guestTitle": "Principal and CEO",
             "language":"Language: Mandarin",
-            "guestInfo": ["<b>Mr. Zheng Yong</b> has 20 years’ experience in surveying, GNSS and photogrammetry. He is a professional land surveyor as well as SLAM technology expert. He had served senior positions in the China GPS Research and Development Center, Trimble, Leica and Ashtech. Currently, he is the principal scientist and CEO of Beijing Wintech Science & Technology operating in the city of Beijing, Hong Kong and Netherlands."],
+            "guestInfo": ["<b>Mr. Zheng Yong</b> graduated from the Department of Aerial Surveying and Remote Sensing at Wuhan University, majoring in Photogrammetry and Remote Sensing. Previously worked at Beijing Surveying and Mapping Design and Research Institute, serving as the Chief Representative for Tianbao China, Leica China, and Ashtek China The current president of Beijing Huatai Tianyu Technology Co., Ltd., led by his team, has developed an unsupported positioning technology that perfectly integrates SLAM technology, INS technology, and aerial photography technology, deeply and perfectly solving the technical problem that INS technology cannot work for a long time in the absence of GNSS, and pioneering the application of SLAM technology in the field of measurement."],
             "guestImg": "./static/images/guests/ZhengYong.jpg",
             "guestImgMini": "./static/img/guests/ZhengYong_mini.png",
             "companyName": "Wintech",
@@ -62,26 +62,26 @@
             "guestName": "Mr. Zhou Beichen",
             "guestTitle": "Overseas Business Director",
             "language":"Language: Mandarin",
-            "guestInfo":["<b>Mr. Zhou Beichen</b> Mr. Zhou Beichen is the Overseas Business Director at Vastitude Technology, where he leads initiatives to promote the innovative application of Radar Satellite technology across Southeast Asia. His focus is on delivering cutting-edge solutions for building safety, water infrastructure security, and transportation monitoring.</br>",
-                        "He holds a Master’s degree in Applied Geographical Information Science (GIS) from the University of Sheffield, UK. Before joining Vastitude Technology, Mr. Zhou worked at the Aerospace Information Research Institute (AIR), Chinese Academy of Sciences (CAS), where he gained extensive experience in international cooperation and satellite remote sensing applications. During his tenure at AIR, he spearheaded the establishment of a collaborative network with multiple international space agencies, orchestrated high-level forums, and played a key role in the global promotion and user training of the SDGSAT-1 satellite. His efforts made SDGSAT-1’s data accessible to scientists in over 100 countries.</br>",
-                        "Leveraging his expertise in both optical and radar satellite domains, Mr. Zhou is dedicated to understanding satellite application needs across diverse global regions, including the Pan-Asia Pacific, South America, the Middle East, and Africa. He works tirelessly to translate cutting-edge remote sensing technology into practical solutions to address real-world challenges, contributing to global sustainable development."
+            "guestInfo":["<b>Mr. Zhou Beichen</b> As the Overseas Business Director at Vastitude Technology, He lead the initiative to promote the innovative application of Radar Satellite technology across Southeast Asia, focusing on delivering solutions for building safety, water infrastructure security, and transportation monitoring.</br>",
+                        "He hold a Master's degree in Applied Geographical Information Science (GIS) from the University of Sheffield, UK. My previous role at the Aerospace Information Research Institute (AIR), Chinese Academy of Sciences (CAS), provided me with profound experience in international cooperation and satellite remote sensing applications. He spearheaded the establishment of a collaborative network with several international space agencies, orchestrated high-level international forums, and played a key role in the global promotion and user training of the SDGSAT-1 satellite, making its data accessible to scientists in over 100 countries.</br>",
+                        "Leveraging my coordinating experience in both optical and radar satellite domains, He am dedicated to understanding the satellite application needs across various global regions (including Pan-Asia Pacific, South America, the Middle East, and Africa) and translating cutting-edge remote sensing technology into practical solutions to address real-world challenges and contribute to global sustainable development."
                         ],
             "guestImg":"./static/img/guests/ZhouBeichen_mini.jpg",
             "guestImgMini": "./static/img/guests/ZhouBeichen_mini.jpg",
             "companyName": "Beijing Vastitude Technology Co.,Ltd_Beichen Zhou",
             "companyWebsite":"https://terrasolid.com/",
-            "companyImg":"./static/img/sponsors/Terrasolid.png"
+            "companyImg":"./static/img/sponsors/vastitude Techology.png"
         },{
             "guestId": 4,
-            "guestName": "Mr. SmartSea",
-            "guestTitle": "職位",
+            "guestName": "Mr. Zhiqiang Yao",
+            "guestTitle": "CEO",
             "language":"Language: Mandarin",
-            "guestInfo":["<b>Mr. SmartSea</b>, 文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本"],
-            "guestImg": "./static/img/guests/AAS_mini.png",
-            "guestImgMini": "./static/img/guests/AAS_mini.png",
+            "guestInfo":["<b>Mr. Zhiqiang Yao</b> is the founder and Managing Director of WUXI SMARTSEA TECHNOLOGY LTD since 2013 Oct. for the ROV & underwater inspection solution related products sales and service business in China market. He has a Bachelor's degree in Electronic Information Engineering from Northwestern Polytechnic University and a Master's degree in National University of Singapore. He was worked for CSSC from 2003 to 2008 and joined the member of IEEE OES in 2016. He was received the ROV technical service training certification of SAAB Seaeye and Teledyne SeaBotix."],
+            "guestImg": "./static/img/guests/Zhiqiang_Yao_mini.jpg",
+            "guestImgMini": "./static/img/guests/Zhiqiang_Yao_mini.jpg",
             "companyName": "Asian Aerospace Services",
             "companyWebsite":"https://www.asianaerospaceservices.com/about-us.html",
-            "companyImg": "./static/img/sponsors/AAS-Logo.png"
+            "companyImg": "./static/img/sponsors/Voyis-Logo.png"
         },{
             "guestId": 5,
             "guestName": "Mr. Eric Yau",
@@ -95,10 +95,10 @@
             "companyImg": "./static/img/sponsors/AMBIT.png"
         },{
             "guestId": 6,
-            "guestName": "黃棟先生",
+            "guestName": "Huang Dong",
             "guestTitle":"泰瑞歐洲研究院院長, 泰瑞數創科技（北京）有限公司首席科學家、博士",
             "language":"Language: 普通话",
-            "guestInfo":[ "<b>黃棟先生</b>, 現任泰瑞數創歐洲研究院院長。 2007年於德國卡爾斯魯厄大學獲得計算機博士學位, 發表論文10餘篇（其中英文6篇），多次參加國內外學術會議。曾在戴姆勒克萊斯勒公司，西門子公司通訊安全研究中心(Siemens Corporate Research)工作, 從事信息系統集成和通訊系統開發工作。專業領域包括數位雙生平台和空間智能應用研發和設計，遙感測繪和GIS系統以及智慧城市系統等。2017年帶領研發的“SmartEarth實景世界雲計算和大數據平台”獲得國家地理信息科技進步二等獎。擁有國際認證信息系統審計師資格(CISA)和美國GARP認證金融風險管理經理資格(FRM)。"],
+            "guestInfo":[ "<b>Huang Dong</b>, Huang Dong currently serves as Dean of the Terai Europe Research Institute. He earned his Ph.D. in Computer Science from Karlsruhe University of Technology, Germany in 2007, publishing over 10 papers (including 6 in English) and participating in numerous domestic and international academic conferences. He previously worked at DaimlerChrysler and Siemens Corporate Research in the field of communication security, focusing on information system integration and communication system development.His professional expertise encompasses digital twin platform and spatial intelligence application R&D and design, remote sensing surveying and GIS systems, as well as smart city systems. In 2017, he led the development of the SmartEarth Real-World Cloud Computing and Big Data Platform, which received the Second Prize in the National Geographic Information Science and Technology Progress Awards. He holds the Certified Information Systems Auditor (CISA) qualification and the Financial Risk Manager (FRM) certification from the Global Association of Risk Professionals (GARP)."],
             "guestImg":"./static/img/guests/SmartEarth_mini.png",
             "guestImgMini": "./static/img/guests/SmartEarth_mini.png",
             "companyName": "泰瑞數創科技(北京)股份有限公司",
