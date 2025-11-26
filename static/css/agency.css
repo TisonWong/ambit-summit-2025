@@ -355,7 +355,7 @@ header .intro-text .intro-heading span{
 
 header .intro-text .intro-lead-in img{
     width: 100%;
-    margin: 1em 0px 2em 0px;
+    margin: 1em 0px 1em 0px;
 }
 @media(min-width:768px) {
     header .intro-text {
@@ -1429,6 +1429,11 @@ aside#hosts img, aside#sponsors img, aside#supporters img {
   /* EVENT SCHEDULE */
 .schedule-table{
     font-size: 18px;
+}
+
+.schedule-table td{
+    font-size: 16px;
+    font-style: italic;
 }
 .intro-lea{
     font-size: 21px;

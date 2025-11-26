@@ -92,11 +92,16 @@
         <div class="intro-text">
           <div class="intro-lead-in">
             <img v-if="all.loadUrl!=undefined"
-              v-bind:src="changeUrl('./static/images/2025 Hong Kong Construction Innovation Expo (CIExpo).png')" />
-            <img v-else src="./static/images/2025 Hong Kong Construction Innovation Expo (CIExpo).png" />
+              v-bind:src="changeUrl('./static/images/2025 Hong Kong 3D Geospatial Summit.png')" />
+            <img v-else src="./static/images/2025 Hong Kong 3D Geospatial Summit.png" />
+            
           </div>
-          <div class="intro-heading" v-html="all.eventInfo.summitTheme"></div>
+       <div style="margin-bottom: 3em;">
+       <span style="font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;font-size: 20px;font-weight: 600;font-style: italic;"> CO-HOSTED IN</span>
+        </div>
 
+          <div class="intro-heading" v-html="all.eventInfo.summitTheme"></div>
+      
           <div class="intro-tagline h3" style="line-height: 36px">
             <b>Location:</b>
             <span class="intro-lea">{{all.eventInfo.location}}</span>

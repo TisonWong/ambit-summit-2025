@@ -1,13 +1,13 @@
 {
     "loadUrl-注释":"https://ambit-summit.oss-cn-hongkong.aliyuncs.com/",
     "eventInfo":{
-        "summitTheme": "The Triennial Flagship Event - Construction Innovation Expo 2025",
+        "summitTheme": "The Triennial Flagship Event - <br/>Construction Innovation Expo 2025",
         "eventDate": [
           {"id":"day1","label":"Day 1","dateDisplay":"December 11 2025 (Thursday)","exhibition":"9:30 AM – 7:00 PM (GMT+8)","presentation":null},
           {"id":"day2","label":"Day 2","dateDisplay":"December 12, 2025 (Friday)","exhibition":"8:30 AM – 7:00 PM (GMT+8)","presentation":"8:30 AM – 7:00 PM (GMT+8)"},
           {"id":"day3","label":"Day 3","dateDisplay":"December 13, 2025 (Saturday)","exhibition":"9:00 AM – 4:30 PM (GMT+8)","presentation":"9:00 AM – 4:30 PM (GMT+8)"}
         ],
-        "venue":"CIExpo 2025 - G24",
+        "venue":"G24",
         "location":"Hong Kong Convention and Exhibition Centre (HKCEC) – Hall 1 A-B",
         "audiences":"Government Department / Engineering Consultant / Contractor /Private Organisation / VC Investor / University / Public Interested on Smart City Application etc...",
         "conveyingLanguage":"Cantonese & Mandarin",
