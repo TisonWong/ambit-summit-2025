@@ -97,7 +97,7 @@
             
           </div>
        <div style="margin-bottom: 3em;">
-       <span style="font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;font-size: 20px;font-weight: 600;font-style: italic;"> CO-HOSTED IN</span>
+       <span style="font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;font-size: 20px;font-weight: 600;font-style: italic;"> Co-Hosted In</span>
         </div>
 
           <div class="intro-heading" v-html="all.eventInfo.summitTheme"></div>
@@ -107,8 +107,8 @@
             <span class="intro-lea">{{all.eventInfo.location}}</span>
           </div>
           <div class="intro-tagline h3" style="line-height: 36px">
-            <b>Booth:</b>
-            <span class="intro-lea">{{all.eventInfo.venue}}</span>
+            <b>Booth No:</b>
+            <span class="intro-lea">{{all.eventInfo.booth}}</span>
           </div>
 
           <div class="event-info container">
@@ -164,15 +164,15 @@
               <h2 class="text-center section-heading" v-text="subject.head"></h2>
             </div>
             <!-- 第一个有视频 半屏显示-->
-            <template v-if="index === 0">
+            <!-- <template v-if="index === 0">
               <div class="col-lg-7">
                 <template v-for="(subHead, subIndex) in subject.subHeads">
                   <h3 class="section-subheading" v-html="subHead"></h3>
                 </template>
               </div>
-            </template>
+            </template> -->
             <!-- 其他全屏显示 -->
-            <template v-else>
+            <template>
               <div class="col-lg-12">
                 <template v-for="(subHead, subIndex) in subject.subHeads">
                   <h3 class="section-subheading" v-html="subHead"></h3>
@@ -180,25 +180,13 @@
               </div>
             </template>
             <!-- 嵌入视频 col-md-offset-1 -->
-            <div class="col-lg-3">
+            <div class="col-lg-12" style="text-align: center;">
               <template v-if="index === 0">
-                <iframe width="450" height="600" loading="lazy" src="https://www.youtube.com/embed/9yKn7gM8GTA"
+                <iframe width=80% height="525" loading="lazy" src="https://www.youtube.com/embed/STlk9mTQxkc?si=mA4WW67kHuwZ9D6p"
                   title="Join the GeoAI Challenge! #shorts" frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowfullscreen></iframe>
               </template>
-
-              <!-- <div
-                  class="embed-responsive embed-responsive-16by9"
-                  v-if="subject.subVideo"
-                  style="margin-bottom: 8px"
-                >
-                  <iframe
-                    class="embed-responsive-item"
-                    loading="lazy"
-                    :src="subject.subVideo"
-                  ></iframe>
-                </div> -->
             </div>
           </div>
         </div>
@@ -278,6 +266,9 @@
             <div class="col-md-12 text-center">
               <img style="max-width: 22%" src="./static/img/sponsors/SKYLINE.png" alt="About Skyline"
               title="Click to visit the company's website"  onclick="window.open('https://www.skylinesoft.com/about/')" />
+              <!-- HKAS -->
+              <img style="max-width: 15%" src="./static/img/sponsors/HKAS.png" alt="About Skyline"
+              title="Click to visit the company's website"   />
             </div>
           </div>
           <br />
@@ -677,10 +668,10 @@
                   </td>
                 </tr>
 
-                <!-- Venue -->
+                <!-- Booth -->
                 <tr>
-                  <th scope="row">Venue</th>
-                  <td v-html="all.eventInfo.venue"></td>
+                  <th scope="row">Booth No</th>
+                  <td v-html="all.eventInfo.booth"></td>
                 </tr>
 
                 <!-- Location -->

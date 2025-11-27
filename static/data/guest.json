@@ -4,10 +4,10 @@
         "summitTheme": "The Triennial Flagship Event - <br/>Construction Innovation Expo 2025",
         "eventDate": [
           {"id":"day1","label":"Day 1","dateDisplay":"December 11 2025 (Thursday)","exhibition":"9:30 AM – 7:00 PM (GMT+8)","presentation":null},
-          {"id":"day2","label":"Day 2","dateDisplay":"December 12, 2025 (Friday)","exhibition":"8:30 AM – 7:00 PM (GMT+8)","presentation":"8:30 AM – 7:00 PM (GMT+8)"},
-          {"id":"day3","label":"Day 3","dateDisplay":"December 13, 2025 (Saturday)","exhibition":"9:00 AM – 4:30 PM (GMT+8)","presentation":"9:00 AM – 4:30 PM (GMT+8)"}
+          {"id":"day2","label":"Day 2","dateDisplay":"December 12, 2025 (Friday)","exhibition":"8:30 AM – 7:00 PM (GMT+8)","presentation":"9:30 AM – 7:00 PM (GMT+8)"},
+          {"id":"day3","label":"Day 3","dateDisplay":"December 13, 2025 (Saturday)","exhibition":"9:00 AM – 4:30 PM (GMT+8)","presentation":"9:30 AM – 4:30 PM (GMT+8)"}
         ],
-        "venue":"G24",
+        "booth":"G24",
         "location":"Hong Kong Convention and Exhibition Centre (HKCEC) – Hall 1 A-B",
         "audiences":"Government Department / Engineering Consultant / Contractor /Private Organisation / VC Investor / University / Public Interested on Smart City Application etc...",
         "conveyingLanguage":"Cantonese & Mandarin",
@@ -18,11 +18,9 @@
         {
             "head": "ABOUT THIS YEAR EVENT",
             "subHeads": [
-              "The world is entering an era of Artificial Intelligence (AI) so does our geospatial industry. The powerful computer graphic recognition capability of AI through its machine learning algorithms has great impacts to geospatial data post processing work; especially toward the operation of feature recognition or extraction as well as change detection from the raster imagery and point cloud datasets. At the same time, the rapidly evolving spatial data acquisition technology formed strong support to facilitate AI application for enterprise level of implementation; new 3D geospatial data acquisition approach has made constant data collection in city scale basis becomes highly effective; nowadays city big data can be generated timely and cost effectively to cater for large scale AI applications. ",
-              "Being able to understand the core principle of operation between city big data and AI is the determining factors to the success of your project. The 3D geospatial data capturing methodology includes photogrammetry and LiDAR approaches, this is the best training data collection media to secure the accuracy of AI result; 3D geospatial post processing software can provide efficient workflow for the execution of annotation labelling of AI to cater for its machine learning process. Neglection of the importance of the role of geospatial technology usually led to the undermining of the AI performance. The collaboration of AI and city big data practice can evolve into the integrated conceptual term – GeoAI. ",
-              "This year, we have invited speakers from Hong Kong, mainland China, Singapore, Europe and USA to share their latest GeoAI applications and insights; especially focus on the GeoAI related disciplines includes SLAM, 3D mesh modelling with AI intelligence, auto defect inspection and stereo/AR visualisation devices that are significant to the project performance of private corporates as well as government departments. The potential synergy effect between AI and city big data is limited by user’s imagination only; it will reform organisation in term of workflow, labour resources and deliverable outcomes. Why not come to experience such “game changing” practice with us in this event."
+              "The world is entering an era of Artificial Intelligence (AI) so does our geospatial industry. The powerful computer graphic recognition capability of AI through its machine learning algorithms has great impacts to geospatial data post processing work; especially toward the operation of feature recognition or extraction as well as change detection from the raster imagery and point cloud datasets. At the same time, the rapidly evolving spatial data acquisition technology formed strong support to facilitate AI application for enterprise level of implementation; new 3D geospatial data acquisition approach has made constant data collection in city scale basis becomes highly effective; nowadays city big data can be generated timely and cost effectively to cater for large scale AI applications. "
             ],
-            "subVideo":"https://www.youtube.com/embed/9yKn7gM8GTA"
+            "subVideo":"https://www.youtube.com/embed/STlk9mTQxkc?si=mA4WW67kHuwZ9D6p"
         },
         {
             "head": "About Hong Kong 3D Geospatial Summit",
@@ -311,6 +309,30 @@
               "themeInfo": "基於Skyline平台，運用3DGIS+IOT技術，在應急管理方面：結合自然災害基本特徵，整合二三維地理空間數據、業務數據、多媒體數據，疊加動態/靜態應急數據信息，通過多源數據融合，建立內容豐富、位置準確、立體多維的三維可視化場景，並基於三維可視化場景，研發場景瀏覽、信息匯聚、災情信息分析、災情監控、輔助決策和應急指揮等功能，實現災害的態勢感知、災害趨勢推演、力量調度與部署、決策方案生成，全面提升應急部門災害救援效率，有效減少人員傷亡與財產損失。<br>在智慧工地方面：將工地管理過程中產生和收集到的數據，進行數字化、信息化的高密度融合，通過多源數據融合技術將工地進行高仿真還原，並將施工現場安裝的多種前端感知設備和信息采集設備所獲取的數據資源匯集到系統中與三維空間數據進行綁定，可視化展現出前端設備的空間位置信息，達到三維可視化展示工地施工的全過程，有效的做到了工地信息的精細化管理。"
             }
           ]
+        },
+        {
+          "dayId":"day3",
+          "sessionTime": "3:25 PM - 3:55 PM",
+          "speechs": [
+            {
+                "guestId": 7,
+                "theme": "Innovation in Aerial Imaging with Phase One Medium Format Cameras in Europe — Aerial Surveying and Urban Planning Use Cases",
+                "themeInfo": "This report will explore the use of Phase One medium format cameras in aerial surveying and urban planning applications across Europe, showcasing their crucial role in airborne photogrammetry and geospatial data collection. With exceptional image quality, dynamic range, and geometric precision, Phase One’s equipment provides unprecedented technical support in high-precision map creation, terrain mapping, and urban modeling.<br> <br>The report will demonstrate how Phase One's equipment, integrated with flight platforms and data processing workflows, enables large-scale, high-accuracy measurements and modeling of vast areas. Specific application cases include large-scale urban planning projects in European cities, precision agriculture monitoring and evaluation, and infrastructure inspection and maintenance. Throughout these cases, the report will address key technical challenges faced in processing vast amounts of data, such as image fusion and accuracy correction, and maintaining image clarity in complex environments.<br> <br> Additionally, the report will explore how Phase One technology contributes to the development of smart cities in Europe, improving urban management efficiency and accuracy. Through real-world examples, the report will showcase its potential in areas like urban infrastructure digitization, environmental monitoring, and traffic flow analysis."
+            }
+
+          ]
+        },
+        {
+          "dayId":"day3",
+          "sessionTime": "3:25 PM - 3:55 PM",
+          "speechs": [
+            {
+                "guestId": 6,
+                "theme": "基於空間智慧的數位孿生技術賦能城市數位化轉型",
+                "themeInfo": "演講簡介本次演講將聚焦泰瑞數創「感知 - 建模 - 模擬 - 應用」全產業鏈數位孿生能力，以空間智慧的「Real2Sim（實景到虛擬）」與「Sim2Real（虛擬到實景）」雙輪驅動為核心，拆解技術落地邏輯，並透過城市模擬、工程模擬兩大標竿案例，展現數位孿生如何為城市數位化轉型注入實效動能。在「Real2Sim」層面，泰瑞以自製高精度航攝感測器為數據入口，搭配產業領先的語義化建模技術，實現城市地形、建築、設施等全要素的自動化、高精度數位化重建，讓物理城市的每一處細節精準對應至虛擬空間；在「Sim2Real」層面，依託高精度工程互動模擬平台（支援多物理場耦合模擬、毫秒級回應）與自主研發的 CIM 引擎（實現 BIM+GIS 數據無縫融合渲染），讓虛擬空間的模擬推演、方案優化能直接反饋實景治理與工程實踐，形成「數據採集 - 虛擬建模 - 模擬優化 - 實景應用」的閉環能力。透過數位孿生底座整合交通、能源、應急等多領域數據，實現城市擁堵治理、災害預警的動態模擬與決策優化；工程模擬案例中，藉由虛擬建構與施工全過程模擬，提前規避施工碰撞風險、優化工序流程，大幅降低專案成本與工期，為城市數位化轉型提供從技術底座到場景落地的一體化解決方案。"
+            }
+
+          ]
         }
       ],
     "historicals": [
@@ -407,6 +429,7 @@
         "boothTheme":"Immersive 3D Visualization - manned by Orlando Grimaldi",
         "boothInfo": "3D PluraView System provide the optimum stereo-viewing environment for a comfortable and fatigue-free work experience with all 3D-stereo applications. Our innovative and reliable PluraView beam-splitter technology is the basis for pixel-precise, stereoscopic 3D image displays, offering the highest stereo viewing quality possible. Currently, PluraView stereo displays can be configured with screen diagonals of up to 28”, resolutions up to 4K (UHD) and a color depth of 10-bit per pixel.",
         "boothImg":"./static/img/sponsors/schneider-digital-logo.svg",
+          "boothDescVideo": "https://www.youtube.com/embed/WQ_qHEWnjNI?si=4FkWeKbWiPaUou-u",
         "companyWebsite":"https://www.schneider-digital.com/en/"
       },{
         "boothTheme":"PhaseOne Aerial Survey Camera Systems – manned by Felix Puls",
@@ -414,6 +437,12 @@
         "boothInfo_Backup": "Phase One has core imaging technologies and a range of digital cameras and imaging modules, setting new standards for image quality in terms of resolution, dynamic range, color fidelity and geometric accuracy.  Ms. Joanna Cheng from Phase One will present their precise aerial 2D and 3D mapping cameras and photogrammetry solutions at their booth. The solutions simplify aerial survey and mapping processes with a diverse and easy-to-integrate line of product. ",
         "boothImg":"./static/img/sponsors/phaseone.svg",
         "companyWebsite":"https://www.phaseone.com/applications/geospatial-imagery/"
+      },{
+        "boothTheme":"Spatial Intelligence Empowers Digital Twins - Manned by Huang Dong",
+        "boothInfo":"Comprehensively demonstrating the innovative application capabilities of digital twins across multiple fields. The core highlight is the spatial intelligence-based digital twin platform, which integrates multi-source information such as satellite remote sensing, IoT, and spatiotemporal big data to achieve real-time dynamic mapping between the physical and virtual worlds. Complemented by self-developed high-precision surveying and mapping sensors with centimeter-level positioning accuracy, it can quickly collect 3D data from complex scenarios such as industry, surveying, and emergency response, delivering high-quality and reliable raw data input for digital twin modeling. The independently developed CIM engine breaks through the bottleneck of 2D and 3D data fragmentation, enabling seamless integration and rendering of BIM and GIS data. Supporting fast loading of massive models, it accurately presents detailed features of building components, geographical terrain, and urban facilities, offering intuitive visualization support for urban governance and park management.",
+        "boothInfo_Backup": "Two benchmark industry applications are showcased on-site: the virtual construction simulation platform can simulate the efficiency of different design schemes in terms of comfort level and carbon emission reduction; the geological and flash flood early warning platform relies on parallel GPU computing and high-performance simulation computing to real-time simulate disaster impact ranges and development trends, accurately match rescue resources, and facilitate efficient implementation of emergency decisions. ",
+        "boothImg":"./static/img/sponsors/SmartEarth.png",
+        "companyWebsite":"https://www.smartearth.cn/"
       }
     ]
 }
