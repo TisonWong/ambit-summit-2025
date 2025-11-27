@@ -64,7 +64,7 @@
             "language":"Language: Mandarin",
             "guestInfo":["<b>Mr. Zhou Beichen</b> As the Overseas Business Director at Vastitude Technology, He lead the initiative to promote the innovative application of Radar Satellite technology across Southeast Asia, focusing on delivering solutions for building safety, water infrastructure security, and transportation monitoring.</br>",
                         "He hold a Master's degree in Applied Geographical Information Science (GIS) from the University of Sheffield, UK. My previous role at the Aerospace Information Research Institute (AIR), Chinese Academy of Sciences (CAS), provided me with profound experience in international cooperation and satellite remote sensing applications. He spearheaded the establishment of a collaborative network with several international space agencies, orchestrated high-level international forums, and played a key role in the global promotion and user training of the SDGSAT-1 satellite, making its data accessible to scientists in over 100 countries.</br>",
-                        "Leveraging my coordinating experience in both optical and radar satellite domains, He am dedicated to understanding the satellite application needs across various global regions (including Pan-Asia Pacific, South America, the Middle East, and Africa) and translating cutting-edge remote sensing technology into practical solutions to address real-world challenges and contribute to global sustainable development."
+                        "Leveraging my coordinating experience in both optical and radar satellite domains, He is dedicated to understanding the satellite application needs across various global regions (including Pan-Asia Pacific, South America, the Middle East, and Africa) and translating cutting-edge remote sensing technology into practical solutions to address real-world challenges and contribute to global sustainable development."
                         ],
             "guestImg":"./static/img/guests/ZhouBeichen_mini.jpg",
             "guestImgMini": "./static/img/guests/ZhouBeichen_mini.jpg",
@@ -95,10 +95,10 @@
             "companyImg": "./static/img/sponsors/AMBIT.png"
         },{
             "guestId": 6,
-            "guestName": "Huang Dong",
+            "guestName": "Mr. Huang Dong",
             "guestTitle":"泰瑞歐洲研究院院長, 泰瑞數創科技（北京）有限公司首席科學家、博士",
             "language":"Language: 普通话",
-            "guestInfo":[ "<b>Huang Dong</b>, Huang Dong currently serves as Dean of the Terai Europe Research Institute. He earned his Ph.D. in Computer Science from Karlsruhe University of Technology, Germany in 2007, publishing over 10 papers (including 6 in English) and participating in numerous domestic and international academic conferences. He previously worked at DaimlerChrysler and Siemens Corporate Research in the field of communication security, focusing on information system integration and communication system development.His professional expertise encompasses digital twin platform and spatial intelligence application R&D and design, remote sensing surveying and GIS systems, as well as smart city systems. In 2017, he led the development of the SmartEarth Real-World Cloud Computing and Big Data Platform, which received the Second Prize in the National Geographic Information Science and Technology Progress Awards. He holds the Certified Information Systems Auditor (CISA) qualification and the Financial Risk Manager (FRM) certification from the Global Association of Risk Professionals (GARP)."],
+            "guestInfo":[ "<b>Mr. Huang Dong</b> currently serves as Dean of the Terai Europe Research Institute. He earned his Ph.D. in Computer Science from Karlsruhe University of Technology, Germany in 2007, publishing over 10 papers (including 6 in English) and participating in numerous domestic and international academic conferences. He previously worked at DaimlerChrysler and Siemens Corporate Research in the field of communication security, focusing on information system integration and communication system development.His professional expertise encompasses digital twin platform and spatial intelligence application R&D and design, remote sensing surveying and GIS systems, as well as smart city systems. In 2017, he led the development of the SmartEarth Real-World Cloud Computing and Big Data Platform, which received the Second Prize in the National Geographic Information Science and Technology Progress Awards. He holds the Certified Information Systems Auditor (CISA) qualification and the Financial Risk Manager (FRM) certification from the Global Association of Risk Professionals (GARP)."],
             "guestImg":"./static/img/guests/SmartEarth_mini.png",
             "guestImgMini": "./static/img/guests/SmartEarth_mini.png",
             "companyName": "泰瑞數創科技(北京)股份有限公司",
@@ -163,17 +163,6 @@
               "themeVideo": "https://www.youtube.com/embed/X87DKyr5CtA?si=_ebGA6gJtejwvBU4"
             }
           ]
-        },{
-          "dayId":"day2",
-          "sessionTime": "2:15 PM - 2:45 PM",
-          "speechs": [
-            {
-              "guestId": 3,
-              "theme": "THE POINT CLOUD INTELLIGENCE FROM THE BEST LIDAR POINT CLOUD PROCESSING SYSTEM IN THE WORLD",
-              "themeInfo": "TerraScan is a popular software application used for processing and analyzing point cloud data, particularly from airborne and terrestrial laser scanning systems (LiDAR). It is widely employed in various industries such as surveying, engineering, and infrastructure management. Automating point cloud processing tasks with TerraScan can greatly enhance efficiency and consistency in workflows. By leveraging TerraScan's automation capabilities through TerraScript, use can streamline and optimize point cloud processing workflows, saving time and effort while maintaining consistency and accuracy in results. In this seminar expert from TerraScan will use several usecases in Europe to demonstrate how to use automation and AI to effectively process pointcloud data.",
-              "themeVideo": "https://www.youtube.com/embed/k5-Ph870naU?si=m1YBT4tYoHVYYISn"
-            }
-          ]
         },
         {
           "dayId":"day2",
@@ -201,18 +190,6 @@
         },
         {
           "dayId":"day2",
-          "sessionTime": "3:45 PM - 4:15 PM",
-          "speechs": [
-            {
-              "guestId": 4,
-              "theme": "Aerial surveying is an indispensable tool in modern geospatial analysis",
-              "themeInfo": "Aerial surveying is an indispensable tool in modern geospatial analysis, environmental monitoring, urban planning, and various other fields. Asian Aerospace Services uses the Diamond Aircraft DA42MPP & DA62MPP, known for the most efficient aircraft in the industry, equipped with state-of-the-art remote sensing solutions from Riegl (Lidar Scanner) and IGI ( IMU, Digital Aerial Camera) to do Airborne Surveys in a wide range of applications in the Asia-Pacific Region. In this seminar,  Mr. Franz Malmer will delve into the intricacies of aerial surveying, exploring its experiences in using cutting edge aerial survey applications and methodologies in the Japan region, along with disscusing the diffculties and challenges of deploying aerial survey mission.",
-              "themeVideo": "https://www.youtube.com/embed/NXEzOuPO-N8?si=1BDTaREQpso69moU"
-            }
-          ]
-        },
-        {
-          "dayId":"day2",
           "sessionTime": "4:15 PM - 4:45 PM",
           "speechs": [
             {
@@ -232,33 +209,6 @@
             {
               "theme": "Break",
               "themeInfo": "Coffee Break, Booth Exhibition and Networking"
-            }
-          ]
-        },
-        {
-          "dayId":"day2",
-          "sessionTime": "5:15 PM - 5:45 PM",
-          "speechs": [
-            {
-              "guestId": 7,
-              "theme": "INNOVATION IN AERIAL IMAGING",
-              "themeInfo":"Phase One Geospatial - New ways with Phase One medium format cameras for airborne mapping and surveying.  Achieve superior image quality, dynamic range, and geometric accuracy for precise geospatial applications.  Phase One has a long history with a focus on the best image quality.  This experience is now brought fully into aerial image capture systems by new products and new ways of handling image data with a workflow fitting huge amounts of data.  The presentation shows the actual status and gives an idea of the next developments.",
-              "themeBackup": "Boost your productivity by Phase One Industrial",
-              "themeInfoBackup": "Introducing the world’s highest resolution sensor the iXM-RS150F, this is the PhaseOne’s flagship full frame ultra-high resolution aerial camera with an image size of 150MP, it allows perfect image quality in a large range of application including aerial mapping, forensic study, cultural heritage conservation, inspection, forestry and agriculture etc.. Another iconic product for local market is the iXM-100, which is the new uniquely designed 100MP high resolution camera for UAV based aerial imagery. Application examples all over the world in carried industries will be demonstrated in the presentation. Results of integrated application with AMBIT’s M+ UAV and manned helicopter in Hong Kong will be presented.",
-              "themeInfo_byKaden": "Introducing the world’s highest resolution sensor the PAS 880 , this is the PhaseOne flagship full frame ultra-high resolution aerial camera with 280MP nadia image and 150MP oblique image. The high-quality images can be used for in several application including aerial mapping, forensic study, cultural heritage conservation, inspection, forestry and agriculture. The PhaseOne system was deployed in several largest 3D City Mapping projects in the world, such as London 3D City model, Switzerland and Australia.",
-              "themeVideo": "https://www.youtube.com/embed/9TvLfSgM8Wo?si=HHiPaPcU7ZEoBL3A"
-            }
-          ]
-        },
-        {
-          "dayId":"day2",
-          "sessionTime": "5:45 PM - 6:15 PM",
-          "speechs": [
-            {
-              "guestId": 8,
-              "theme": "空天地融合的實景三維建設軟硬件工具與典型應用",
-              "themeInfo": "武漢大勢智慧是中國領先的、用戶量最多的實景三維公司，擁有領先的AI實景立體專利、三維優化技術，線上渲染效率極快。本次會在峰會上報告實景三維建模技術的最新進展，並結合大城市實景三維建設過程中的數據處理、計算效率、數據更新、數據融合、色彩優化、輕量化展示等技術難題進行分享；報告了實景三維建設的整體技術架構、相關的軟硬體工具和整個工藝體系，以及這些工具在實際工程中的應用效果；同時，分享了高精度實景三維技術和成果在深圳、北京、廣州等智慧城市方向的應用，以及在長城、敦煌莫高窟、雲岡石窟、武當山等文化遺產保存領域的應用。在本次峰會上也會為大家帶來非常多的實景三維，專屬的文化、古籍保護技術。",
-              "themeVideo": "https://www.youtube.com/embed/0XeMsEyhe8I"
             }
           ]
         },
@@ -449,25 +399,10 @@
         "boothImg":"./static/img/sponsors/H3Zoom-AI-small.png",
         "companyWebsite":"https://www.h3zoom.ai/about-us"
       },{
-        "boothTheme":"Demonstrate Professional Fix-Wing Aerial Survey Services and Systems - manned by Franz Malmer",
-        "boothInfo": "In Asian Aerospace Services’ booth Mr. Franz Malmer will demonstrate the survey experience and end product of using Diamond Aircraft DA42MPP & DA62MPP, known for the most efficient aircraft in the industry. The aircrafts are equipped with state-of-the-art remote sensing solutions from Riegl (Lidar Scanner) and IGI ( IMU, Digital Aerial Camera) to do Airborne Surveys in a wide range of applications such as Infrastructure Planning (Powerline, Pipeline, Railway, Roads, Industry ), Mining ( Geology, Geography, Geomorphology ), Disaster Prevention ( Flood, Landslides), Vegetation Analysis ( Forestry, Precision Farming ), Mapping ( City Models, Topographic Maps, Corridors, Landuse ) and Archeology.",
-        "boothImg":"./static/img/sponsors/AAS-Logo.png",
-        "companyWebsite":"https://www.asianaerospaceservices.com/about-us.html"
-      },{
         "boothTheme":"一體化高精度實景三維技術 – manned by 周北辰",
         "boothInfo": "展台將分享由我們公司自研自采的高精度實景三維技術和成果，在深圳、北京、廣州等智慧城市方向的應用，以及在長城、敦煌莫高窟、雲崗石窟、武當山等文化遺產保護領域的應用。展品產品有雙魚系列、定拍DShot、MiniRTK、智影系列、鷹眼系列等等，配套展示的軟件有重建大師、雲端地球、重建農場、模方、DasViewer、網格大師等等。",
         "boothImg":"./static/img/sponsors/Daspatial.png",
         "companyWebsite":"https://www.daspatial.com/en/about"
-      },{
-        "boothTheme":"Efficient Point Cloud Processing and 3D Vector Data Creation - manned by Antti Järvenpää",
-        "boothInfo": "TerraScan is the main application in the Terrasolid Software family for managing and processing all types of point clouds. Mr. Antti Järvenpää will demonstrate how to use TerraScan for effective LiDAR data processing. For example, by using the import and project structuring tools for handling the massive number of points of a laser scanning campaign, as well as the corresponding trajectory information. Various classification routines enable the automatic filtering of the point cloud in TerraScan. In addition, automated tools for creating 3D vector data based on the laser points will also be presented in the booth.",
-        "boothImg":"./static/img/sponsors/Terrasolid.png",
-        "companyWebsite":"https://terrasolid.com/"
-      },{
-        "boothTheme":"Revolutionizing Surveying, Construction, and Urban Development - manned by Jason Lim",
-        "boothInfo": "Explore the transformative power of Stonex's GNSS technology on surveying, construction, and urban development.  At our exhibition booth, Stonex’s representative will highlight the precision of their systems, with the detailed case studies from the intricate mapping of cityscapes to the precise docking of the Italian Navy's CAVOUR aircraft carrier.  Delve into case studies that demonstrate how GNSS is critical to the accuracy of large-scale projects and the innovation behind smart city infrastructure.  Our showcase will provide a deep dive into how Stonex's GNSS solutions are integral in shaping the future of global navigation and geospatial intelligence.  Join us to understand the precision that drives technological evolution.",
-        "boothImg":"./static/img/sponsors/Stonex.png",
-        "companyWebsite":"https://www.stonex.it/chi-siamo/societa/"
       },{
         "boothTheme":"Immersive 3D Visualization - manned by Orlando Grimaldi",
         "boothInfo": "3D PluraView System provide the optimum stereo-viewing environment for a comfortable and fatigue-free work experience with all 3D-stereo applications. Our innovative and reliable PluraView beam-splitter technology is the basis for pixel-precise, stereoscopic 3D image displays, offering the highest stereo viewing quality possible. Currently, PluraView stereo displays can be configured with screen diagonals of up to 28”, resolutions up to 4K (UHD) and a color depth of 10-bit per pixel.",
@@ -479,11 +414,6 @@
         "boothInfo_Backup": "Phase One has core imaging technologies and a range of digital cameras and imaging modules, setting new standards for image quality in terms of resolution, dynamic range, color fidelity and geometric accuracy.  Ms. Joanna Cheng from Phase One will present their precise aerial 2D and 3D mapping cameras and photogrammetry solutions at their booth. The solutions simplify aerial survey and mapping processes with a diverse and easy-to-integrate line of product. ",
         "boothImg":"./static/img/sponsors/phaseone.svg",
         "companyWebsite":"https://www.phaseone.com/applications/geospatial-imagery/"
-      },{
-        "boothTheme":"Precision Location Solutions for Indoor and Outdoor Tracking – manned by Eric Tam",
-        "boothInfo":"Discover Precision Location Solutions for Indoor and Outdoor Tracking. Our cutting-edge UWB and Bluetooth AoA real-time location systems deliver unparalleled accuracy, allowing you to track and locate assets with pinpoint precision. Experience reliable wireless positioning technology for enhanced efficiency and peace of mind.The exhibits we bring this time will bring you a wonderful experience. U3000 series positioning base stations suitable for different environments; Equipment suitable for different work environments - Tb series;There is also our flagship product - TS3500-cs, a high-precision wristband watch with a screen display.",
-        "boothImg":"./static/img/sponsors/GatWish.svg",
-        "companyWebsite":"https://gatwish.com.hk/#services"
       }
     ]
 }
