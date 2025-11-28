@@ -129,18 +129,18 @@
           ]
         },{
           "dayId":"day2",
-          "sessionTime": "9:00 PM - 9:45 PM",
+          "sessionTime": "9:30 AM - 7:00 PM",
           "speechs": [
             {
               "guestId": 5,
               "theme": "Opening Remarks",
               "themeInfo": "In the recent years, the promotion of use of digital technology is popular in Hong Kong; very often corporate users are given various technology solutions by vendors when encountering problem; it is difficult if not impossible for normal user to choose from all sorts of digital technologies ranging from AI, IoT, GIS or BIM etc..; all these are the most popular means of digital technology that exists commonly in smart government application. The key to success for implementing innovative technology in most of corporate or government projects are the vision to select the right technology as well as using the best vendors in the relevant discipline to carry out the work for you. In this assembly, we will benchmark similar application from the global perspective in order to provide insight to the audiences during decision making for innovative application.",
-              "themeVideo": "https://www.youtube.com/embed/qu7BGa1Bhsk?si=RExtZzs-Qf190rBF"
+              "themeVideo": "https://www.youtube.com/embed/uD_IY_QaI1w?si=dvWSTWc5PJhyPUel"
             }
           ]
         },{
           "dayId":"day2",
-          "sessionTime": "1:15 PM - 1:45 PM",
+          "sessionTime": "9:30 AM - 4:30 PM",
           "speechs": [
             {
               "guestId": 1,
@@ -156,7 +156,7 @@
             {
               "guestId": 2,
               "theme": "天地一體化實景三維解決方案",
-              "themeInfo": "天地一體，我們是指在無人機解決快速獲取空中實景三維的同時，我們可以通過MS-96快速、高效地獲取地面甚至室內、地下的實景三維數據。然後將MS-96獲取的地面數據與航空攝影獲得的數據通過傾斜攝影建模軟體進行融合，從而實現從天空到地面、室內甚至地下融為一體的三維實景數據。MS-96實景三維系統不僅是一款背負式的三維實景系統，它通過更換搭載平台可以成為車載、靜態三維激光掃描儀，其通過SLAM融合INS算法，採集數據效率最高速度可達60KM每小時。<br>此次報告中，我們不僅帶來了SLAM+INS+航空攝影融合算法與其他SLAM產品的優勢與區別，同時會以案例形式來分享我們再實際數據生產過程中的應用方向，如大型商超的室內導航應用、城市級道理數據獲取方式，在不同環境中一機多用的數據成果展示，具體包括：人民大會堂金色大廳成果展示、城市級道路地面傾斜數據生成方式、室內傾斜模型效果展示、上萬平米商超數據成果展示、交通樞紐數據成果展示、工廠生產線數據成果展示等。",
+              "themeInfo": "天地一體，我們是指在無人機解決快速獲取空中實景三維的同時，我們可以通過MS-96快速、高效地獲取地面甚至室內、地下的實景三維數據。然後將MS-96獲取的地面數據與航空攝影獲得的數據通過傾斜攝影建模軟體進行融合，從而實現從天空到地面、室內甚至地下融為一體的三維實景數據。MS-96實景三維系統不僅是一款背負式的三維實景系統，它通過更換搭載平台可以成為車載、靜態三維激光掃描儀，其通過SLAM融合INS算法，採集數據效率最高速度可達60KM每小時。",
               "themeInfo_byKaden": "The conventional mobile mapping systems (MMS) face significant challenges when operating in Hong Kong's densely populated environment. The Viametris MS-96 stands out with its cutting-edge Slam algorithm, requiring minimal ground control points to achieve remarkably accurate results. This system excels in acquiring high-relative-accuracy LiDAR and top-notch imagery data, enabling the creation of superior-quality 3D city models. The MS-96 sensor is versatile, making it ideal for indoor or civil infrastructure 3D modeling, thus facilitating various applications such as Building Information Modeling (BIM), highways, tunnels, railway stations, and the preservation of historic or iconic structures.",
               "themeVideo": "https://www.youtube.com/embed/X87DKyr5CtA?si=_ebGA6gJtejwvBU4"
             }
@@ -239,8 +239,8 @@
           "speechs": [
             {
               "guestId": 2,
-              "theme": "天地一體化實景三維解決方案",
-              "themeInfo": "天地一體，我們是指在無人機解決快速獲取空中實景三維的同時，我們可以通過MS-96快速、高效地獲取地面甚至室內、地下的實景三維數據。然後將MS-96獲取的地面數據與航空攝影獲得的數據通過傾斜攝影建模軟體進行融合，從而實現從天空到地面、室內甚至地下融為一體的三維實景數據。MS-96實景三維系統不僅是一款背負式的三維實景系統，它通過更換搭載平台可以成為車載、靜態三維激光掃描儀，其通過SLAM融合INS算法，採集數據效率最高速度可達60KM每小時。<br>此次報告中，我們不僅帶來了SLAM+INS+航空攝影融合算法與其他SLAM產品的優勢與區別，同時會以案例形式來分享我們再實際數據生產過程中的應用方向，如大型商超的室內導航應用、城市級道理數據獲取方式，在不同環境中一機多用的數據成果展示，具體包括：人民大會堂金色大廳成果展示、城市級道路地面傾斜數據生成方式、室內傾斜模型效果展示、上萬平米商超數據成果展示、交通樞紐數據成果展示、工廠生產線數據成果展示等。"
+              "theme": "MS-96模塊化掃描儀案例分享",
+              "themeInfo": "此次報告中，我們不僅帶來了SLAM+INS+航空攝影融合算法與其他SLAM產品的優勢與區別，同時會以案例形式來分享我們再實際數據生產過程中的應用方向，如大型商超的室內導航應用、城市級道理數據獲取方式，在不同環境中一機多用的數據成果展示，具體包括：人民大會堂金色大廳成果展示、城市級道路地面傾斜數據生成方式、室內傾斜模型效果展示、上萬平米商超數據成果展示、交通樞紐數據成果展示、工廠生產線數據成果展示等。"
             }
           ]
         },
@@ -333,6 +333,18 @@
             }
 
           ]
+        },
+        {
+          "dayId":"day3",
+          "sessionTime": "3:25 PM - 3:55 PM",
+          "speechs": [
+            {
+                "guestId": 4,
+                "theme": "High-Resolution Underwater Optical 3D Imaging Technology and Application",
+                "themeInfo": "Introduction of underwater 3D laser scanners, underwater high-definition photography and lighting systems, and underwater stereo 3D imaging systems. And then show the integration and application with professional underwater robotic systems, it will share some application cases of ocean scientific surveys, marine engineering, water conservancy and hydropower, underwater municipal engineering, emergency salvage & rescue, and underwater archaeology."
+            }
+
+          ]
         }
       ],
     "historicals": [
@@ -410,9 +422,9 @@
         "boothImg":"./static/img/sponsors/AMBIT.png",
         "companyWebsite": "https://www.ambit-geospatial.com.hk/about.html"
       },{
-        "boothTheme":"ViAmetris Mobile Mapping Systems – manned by Zheng Yong",
-        "boothInfo":"The conventional mobile mapping systems (MMS) face significant challenges when operating in Hong Kong's densely populated environment. The Viametris MS-96 stands out with its cutting-edge Slam algorithm, requiring minimal ground control points to achieve remarkably accurate results. This system excels in acquiring high-relative-accuracy LiDAR and top-notch imagery data, enabling the creation of superior-quality 3D city models. The MS-96 sensor is versatile, making it ideal for indoor or civil infrastructure 3D modeling, thus facilitating various applications such as Building Information Modeling (BIM), highways, tunnels, railway stations, and the preservation of historic or iconic structures.",
-        "boothInfo_Backup": "Mr Zheng yong from WinTech will demonstrate a few ViAmetris newest city mobile mapping products, including ViAmetris iMS3D bMS3D vMS3D and the latest of VMMS 3D system MS-96 Mobile Scanning Technology For any their application in smart government and smart city. VIAMETRIS is the manufacturer of mobile mapping systems to address indoor/outdoor scanning challenges around the world. For 15 years, ViAmetris developed accurate, high quality and value-added solutions to improve acquisition processes and data management for Lidar based mapping, point cloud management in general, and integration of subsequent data collection. Viametris also has a range of post-processing software (PPIMMS) and automatic scan data recognition software (Vision MaGeLAAn) for civil engineering, land surveying, architecture, and BIM usecase.",
+        "boothTheme":"MS-96模組化三維鐳射掃描器—— manned by 趙斌",
+        "boothInfo":"本次展臺將重點分享：如何快速高效獲取高精度三維鐳射點雲、不同工作模式下的效率表現，以及如何破解傳統移動掃描器在 GNSS 缺失環境中的精度瓶頸。同時，將展示 MS-96 模組化三維鐳射掃描器在背包模式、車載模式下的室內外應用成果，包括高精度點雲資料及自動生成的 mesh 模型。",
+        "boothInfo_Backup": "最後，還將分享該設備在香港地區的實測案例 —— 涵蓋將軍澳體育館、香港仔隧道、幹諾道中、中環、太平山至中環等場景，詳細介紹各項目的資料獲取過程及耗時情況。",
         "boothImg":"./static/img/sponsors/wintech.png",
         "companyWebsite":"http://www.wtechgnss.com/col.jsp?id=118"
       },{
@@ -443,6 +455,18 @@
         "boothInfo_Backup": "Two benchmark industry applications are showcased on-site: the virtual construction simulation platform can simulate the efficiency of different design schemes in terms of comfort level and carbon emission reduction; the geological and flash flood early warning platform relies on parallel GPU computing and high-performance simulation computing to real-time simulate disaster impact ranges and development trends, accurately match rescue resources, and facilitate efficient implementation of emergency decisions. ",
         "boothImg":"./static/img/sponsors/SmartEarth.png",
         "companyWebsite":"https://www.smartearth.cn/"
+      },{
+        "boothTheme":"3D Tomato Smart Site Safety System (SSSS) manned by Rio Cheung",
+        "boothInfo":"The 3D Tomato Smart Site Safety System is specifically designed in response to the Hong Kong Special Administrative Region Development Bureau's implementation of the \"Smart Site Safety System (SSSS)\" policy, which began in February 2023. It is currently the most powerful, data-intensive, and high-precision digital twin construction management platform in the construction industry.",
+        "boothInfo_Backup": "3D Tomato seamlessly integrates CCTV, IoT sensors, AI building analysis modules, and 3D digital scenes to provide project managers with high-precision, stable, and real-time data monitoring capabilities. Through a three-dimensional display of structural information and safety status, it significantly enhances the visibility and decision-making efficiency on construction sites, providing critical support for improving the digital quality and construction safety standards in the industry.",
+        "boothImg":"./static/img/sponsors/AMBIT.png",
+        "companyWebsite":"https://www.ambit-geospatial.com.hk/"
+      },{
+        "boothTheme":"High-Resolution Underwater Optical 3D Imaging Technology - Manned by Tony Yao",
+        "boothInfo":"Tony Yao will present the latest High-Resolution Underwater Optical 3D Imaging Technology and application samples from Voyis. It will focus on introducing and demonstrating products such as underwater 3D laser scanners, underwater high-definition photography and lighting systems, and underwater stereo 3D imaging systems.",
+        "boothInfo_Backup": "Through the integration of professional underwater robotic systems, it will also share and showcase application cases in fields including marine scientific surveys, marine engineering, water conservancy and hydropower, underwater municipal engineering, emergency salvage & rescue, and underwater archaeology.",
+        "boothImg":"./static/img/sponsors/Voyis-Logo.png",
+        "companyWebsite":"https://www.smart-sea.com/"
       }
     ]
 }
